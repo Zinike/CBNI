@@ -97,7 +97,7 @@ body {
   }
 
   header .contenedor .logo {
-    height: 10vh;
+    height: inherit;
   }
 
   header .contenedor .menu_icon img {
@@ -110,10 +110,6 @@ body {
 
   header .contenedor .menu a {
     padding: 0px 10px 0px 10px;
-  }
-
-  header .contenedor .menu .mostrar_menu {
-    height: 90px;
   }
 
   #primer_seccion {
@@ -623,7 +619,7 @@ body {
     transition: color 500ms;
   }
 
-  header .contenedor .menu .mostrar_menu {
+  header .contenedor .menu.mostrar_menu {
     height: 90px;
   }
 
@@ -891,7 +887,7 @@ body {
     transition: color 500ms;
   }
 
-  header .contenedor .menu .mostrar_menu {
+  header .contenedor .menu.mostrar_menu {
     height: 90px;
   }
 
