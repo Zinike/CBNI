@@ -262,7 +262,7 @@ body {
   }
 }
 
-/* TABLET */
+/* --------------------------------------------------------------------TABLET */
 @media screen and (max-width: 768px) {
   h1 {
     color: #ffc85e;
@@ -530,7 +530,7 @@ body {
   }
 }
 
-/* MOBILE */
+/* --------------------------------------------------------------------MOBILE */
 @media screen and (max-width: 375px) {
   h1 {
     color: #ffc85e;
