@@ -97,7 +97,7 @@ body {
   }
 
   header .contenedor .logo {
-    height: inherit;
+    height: 10vh;
   }
 
   header .contenedor .menu_icon img {
@@ -124,7 +124,7 @@ body {
   }
 
   #primer_seccion img {
-    margin: 100px;
+    margin: 50px;
     height: 300px;
     width: 300px;
   }
@@ -149,7 +149,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 70vh;
+    height: 90vh;
     width: 100%;
     background-color: #000;
   }
