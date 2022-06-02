@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+/* -------------------------------------------------------------IMPORTACIONES */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+/* -------------------------------------------------------------------GENERAL */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -18,7 +21,7 @@ body {
   cursor: url(images/cursor.png), auto;
 }
 
-/* NORMALES */
+/* -------------------------------------------------------------------DESKTOP */
 @media screen and (min-width:768px) {
   h1 {
     color: #ffc85e;
@@ -116,7 +119,7 @@ body {
     height: 90px;
   }
 
-  #primer_seccion {
+  #hero {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -127,13 +130,13 @@ body {
     width: 100%;
   }
 
-  #primer_seccion img {
+  #hero img {
     margin: 100px;
     height: 300px;
     width: 300px;
   }
 
-  #segunda_seccion {
+  #nosotros {
     height: 60vh;
     width: auto;
     display: flex;
@@ -141,15 +144,15 @@ body {
     justify-content: center;
   }
 
-  #segunda_seccion h2 {
+  #nosotros h2 {
     padding: 0 0 25px 0;
   }
 
-  #segunda_seccion h3 {
+  #nosotros h3 {
     padding: 10px;
   }
 
-  #tercera_seccion {
+  #propiedades {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,7 +161,7 @@ body {
     background-color: #000;
   }
 
-  #tercera_seccion .button {
+  #propiedades .button {
     font-size: 2em;
     position: relative;
     top: -50px;
@@ -172,18 +175,18 @@ body {
     align-items: center;
   }
 
-  #tercera_seccion .button:hover {
+  #propiedades .button:hover {
     background: #333;
   }
 
-  #tercera_seccion .contenedor {
+  #propiedades .contenedor {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
   }
 
-  #tercera_seccion .contenedor .card {
+  #propiedades .contenedor .card {
     margin: 25px 0px 25px 0px;
     background-color: #555;
     width: 180px;
@@ -194,62 +197,62 @@ body {
     transition: all 1.5;
   }
 
-  #tercera_seccion .contenedor .card:hover {
+  #propiedades .contenedor .card:hover {
     transform: scale(1.1);
     box-shadow: 12px 12px 16px 16px rgba(#555, 0.5);
   }
 
-  #tercera_seccion .contenedor .card img {
+  #propiedades .contenedor .card img {
     width: 100%;
     height: 45%;
   }
 
-  #cuarta_seccion {
+  #contacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 60vh;
   }
 
-  #cuarta_seccion .contenedor {
+  #contacto .contenedor {
     display: flex;
     justify-content: center;
   }
 
-  #cuarta_seccion .contenedor ul {
+  #contacto .contenedor ul {
     display: flex;
     flex-direction: column;
   }
 
-  #cuarta_seccion .contenedor ul .telefono {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 0 15px 0;
-  }
-
-  #cuarta_seccion .contenedor ul .telefono .Yuli {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  #cuarta_seccion .contenedor ul .telefono .Malcom {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  #cuarta_seccion .contenedor ul .redes {
+  #contacto .contenedor ul .telefono {
     display: flex;
     flex-direction: column;
     padding: 10px 0 15px 0;
   }
 
-  #cuarta_seccion .contenedor ul .redes .instagram {
+  #contacto .contenedor ul .telefono .Yuli {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #contacto .contenedor ul .telefono .Malcom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #contacto .contenedor ul .redes {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 15px 0;
+  }
+
+  #contacto .contenedor ul .redes .instagram {
     padding: 7px 0 7px 0;
   }
 
-  #cuarta_seccion .contenedor ul .redes .whatsapp {
+  #contacto .contenedor ul .redes .whatsapp {
     padding: 3px 0 3px 0;
   }
 
@@ -383,7 +386,7 @@ body {
     height: 90px;
   }
 
-  #primer_seccion {
+  #hero {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -395,13 +398,13 @@ body {
     max-width: 720px;
   }
 
-  #primer_seccion img {
+  #hero img {
     margin: 50% 80% 50% 20%;
     max-height: 150px;
     max-width: 150px;
   }
 
-  #segunda_seccion {
+  #nosotros {
     height: 60vh;
     width: auto;
     display: flex;
@@ -409,15 +412,15 @@ body {
     justify-content: center;
   }
 
-  #segunda_seccion h2 {
+  #nosotros h2 {
     padding: 10px;
   }
 
-  #segunda_seccion h3 {
+  #nosotros h3 {
     padding: 10px;
   }
 
-  #tercera_seccion {
+  #propiedades {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -426,7 +429,7 @@ body {
     background-color: #000;
   }
 
-  #tercera_seccion .button {
+  #propiedades .button {
     font-size: 1em;
     position: relative;
     top: -50px;
@@ -440,18 +443,18 @@ body {
     align-items: center;
   }
 
-  #tercera_seccion .button:hover {
+  #propiedades .button:hover {
     background: #555;
   }
 
-  #tercera_seccion .contenedor {
+  #propiedades .contenedor {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
   }
 
-  #tercera_seccion .contenedor .card {
+  #propiedades .contenedor .card {
     margin: 25px 0px 25px 0px;
     background-color: #555;
     width: 180px;
@@ -462,62 +465,62 @@ body {
     transition: all 1.5;
   }
 
-  #tercera_seccion .contenedor .card:hover {
+  #propiedades .contenedor .card:hover {
     transform: scale(1.1);
     box-shadow: 12px 12px 16px 16px rgba(#555, 0.5);
   }
 
-  #tercera_seccion .contenedor .card img {
+  #propiedades .contenedor .card img {
     width: 100%;
     height: 45%;
   }
 
-  #cuarta_seccion {
+  #contacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 70vh;
   }
 
-  #cuarta_seccion .contenedor {
+  #contacto .contenedor {
     display: flex;
     justify-content: center;
   }
 
-  #cuarta_seccion .contenedor ul {
+  #contacto .contenedor ul {
     display: flex;
     flex-direction: column;
   }
 
-  #cuarta_seccion .contenedor ul .telefono {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 0 15px 0;
-  }
-
-  #cuarta_seccion .contenedor ul .telefono .Yuli {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  #cuarta_seccion .contenedor ul .telefono .Malcom {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  #cuarta_seccion .contenedor ul .redes {
+  #contacto .contenedor ul .telefono {
     display: flex;
     flex-direction: column;
     padding: 10px 0 15px 0;
   }
 
-  #cuarta_seccion .contenedor ul .redes .instagram {
+  #contacto .contenedor ul .telefono .Yuli {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #contacto .contenedor ul .telefono .Malcom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #contacto .contenedor ul .redes {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 15px 0;
+  }
+
+  #contacto .contenedor ul .redes .instagram {
     padding: 7px 0 7px 0;
   }
 
-  #cuarta_seccion .contenedor ul .redes .whatsapp {
+  #contacto .contenedor ul .redes .whatsapp {
     padding: 3px 0 3px 0;
   }
 
@@ -651,7 +654,7 @@ body {
     height: 90px;
   }
 
-  #primer_seccion {
+  #hero {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -663,13 +666,13 @@ body {
     max-width: 720px;
   }
 
-  #primer_seccion img {
+  #hero img {
     margin: 50% 80% 50% 20%;
     max-height: 150px;
     max-width: 150px;
   }
 
-  #segunda_seccion {
+  #nosotros {
     height: 60vh;
     width: auto;
     display: flex;
@@ -677,15 +680,15 @@ body {
     justify-content: center;
   }
 
-  #segunda_seccion h2 {
+  #nosotros h2 {
     padding: 10px;
   }
 
-  #segunda_seccion h3 {
+  #nosotros h3 {
     padding: 10px;
   }
 
-  #tercera_seccion {
+  #propiedades {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -694,7 +697,7 @@ body {
     background-color: #000;
   }
 
-  #tercera_seccion .button {
+  #propiedades .button {
     font-size: 1em;
     position: relative;
     top: -50px;
@@ -708,18 +711,18 @@ body {
     align-items: center;
   }
 
-  #tercera_seccion .button:hover {
+  #propiedades .button:hover {
     background: #555;
   }
 
-  #tercera_seccion .contenedor {
+  #propiedades .contenedor {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
   }
 
-  #tercera_seccion .contenedor .card {
+  #propiedades .contenedor .card {
     margin: 25px 0px 25px 0px;
     background-color: #555;
     width: 180px;
@@ -730,62 +733,62 @@ body {
     transition: all 1.5;
   }
 
-  #tercera_seccion .contenedor .card:hover {
+  #propiedades .contenedor .card:hover {
     transform: scale(1.1);
     box-shadow: 12px 12px 16px 16px rgba(#555, 0.5);
   }
 
-  #tercera_seccion .contenedor .card img {
+  #propiedades .contenedor .card img {
     width: 100%;
     height: 45%;
   }
 
-  #cuarta_seccion {
+  #contacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 70vh;
   }
 
-  #cuarta_seccion .contenedor {
+  #contacto .contenedor {
     display: flex;
     justify-content: center;
   }
 
-  #cuarta_seccion .contenedor ul {
+  #contacto .contenedor ul {
     display: flex;
     flex-direction: column;
   }
 
-  #cuarta_seccion .contenedor ul .telefono {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 0 15px 0;
-  }
-
-  #cuarta_seccion .contenedor ul .telefono .Yuli {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  #cuarta_seccion .contenedor ul .telefono .Malcom {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  #cuarta_seccion .contenedor ul .redes {
+  #contacto .contenedor ul .telefono {
     display: flex;
     flex-direction: column;
     padding: 10px 0 15px 0;
   }
 
-  #cuarta_seccion .contenedor ul .redes .instagram {
+  #contacto .contenedor ul .telefono .Yuli {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #contacto .contenedor ul .telefono .Malcom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #contacto .contenedor ul .redes {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 15px 0;
+  }
+
+  #contacto .contenedor ul .redes .instagram {
     padding: 7px 0 7px 0;
   }
 
-  #cuarta_seccion .contenedor ul .redes .whatsapp {
+  #contacto .contenedor ul .redes .whatsapp {
     padding: 3px 0 3px 0;
   }
 
