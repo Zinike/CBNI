@@ -1,4 +1,4 @@
-/* -------------------------------------------------------------IMPORTACIONES */
+/*   IMPORTACIONES   */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 /* -------------------------------------------------------------------GENERAL */
@@ -19,7 +19,7 @@ body {
   cursor: url(images/cursor.png), auto;
 }
 
-/* --------------------------------------------------------------------MOBILE */
+/*   MOBILE   */
 @media screen and (max-width: 767px) {
   h1 {
     color: #ffc85e;
@@ -294,7 +294,7 @@ body {
   }
 }
 
-/* -------------------------------------------------------------------DESKTOP */
+/*   DESKTOP   */
 @media screen and (min-width: 768px) {
   h1 {
     color: #ffc85e;
