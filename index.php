@@ -10,12 +10,9 @@
 
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="images/favicon.png">
-
 </head>
 
 <body>
-
-
   <!--- EL HEADER DE LA PAGINA - HEADER --->
   <header>
     <div class="contenedor">
@@ -48,37 +45,42 @@
   <section id="propiedades">
     <div class="contenedor">
       <h2>Nuestras Propiedades</h2>
-      <div class="card">
-        <div class="card-text">
-          <h3>Titulo</h3>
-          <p>Descripcion</p>
+
+      <form class="cards" action="propiedades.php" method="post">
+        <div class="card">
+          <div class="card-text">
+            <h3>$nombre</h3>
+            <p>Descripcion</p>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="card-text">
-          <h3>Titulo</h3>
-          <p>Descripcion</p>
+        <div class="card">
+          <div class="card-text">
+            <h3>Titulo</h3>
+            <p>Descripcion</p>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="card-text">
-          <h3>Titulo</h3>
-          <p>Descripcion</p>
+        <div class="card">
+          <div class="card-text">
+            <h3>Titulo</h3>
+            <p>Descripcion</p>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="card-text">
-          <h3>Titulo</h3>
-          <p>Descripcion</p>
+        <div class="card">
+          <div class="card-text">
+            <h3>Titulo</h3>
+            <p>Descripcion</p>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="card-text">
-          <h3>Titulo</h3>
-          <p>Descripcion</p>
+        <div class="card">
+          <div class="card-text">
+            <h3>Titulo</h3>
+            <p>Descripcion</p>
+          </div>
         </div>
-      </div>
-      <a class="button" href="">Ver Todo</a>
+      </form>
+      <?php
+        include("propiedades.php")
+      ?>
     </div>
   </section>
 

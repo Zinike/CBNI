@@ -442,32 +442,20 @@ body {
     background-color: #000;
   }
 
-  #propiedades .button {
-    font-size: 2em;
-    position: relative;
-    top: -50px;
-    height: 100px;
-    width: 250px;
-    padding: 10px;
-    border-radius: 8px;
-    background-color: #111;
-    box-shadow: #000 5px 5px 15px 5px;
-    border: 2px solid #222;
-    align-items: center;
-  }
-
-  #propiedades .button:hover {
-    background: #333;
-  }
-
   #propiedades .contenedor {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
   }
 
-  #propiedades .contenedor .card {
+  #propiedades .contenedor .cards {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #propiedades .contenedor .cards .card {
     margin: 25px 0px 25px 0px;
     background-color: #555;
     width: 180px;
@@ -475,15 +463,16 @@ body {
     border-radius: 8px;
     box-shadow: 5px 5px 5px 5px rgba(#fff, 0.5);
     overflow: hidden;
-    transition: all 1.5;
+    transition: all .5s;
+    margin: 50px 15px;
   }
 
-  #propiedades .contenedor .card:hover {
+  #propiedades .contenedor .cards .card:hover {
     transform: scale(1.1);
     box-shadow: 12px 12px 16px 16px rgba(#555, 0.5);
   }
 
-  #propiedades .contenedor .card img {
+  #propiedades .contenedor .cards .card img {
     width: 100%;
     height: 45%;
   }
