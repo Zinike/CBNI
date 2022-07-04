@@ -1,29 +1,17 @@
-<?php
-<<<<<<< HEAD
-  include("propiedades.php")
-?>
-
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-=======
-$servername = "localhost";
-$username = "marcoszinga";
-$password = "Mfzv1994";
-$db = "propiedades";
->>>>>>> 08e3ce051cc1843d0633b009f394777bd272ecda
 
-$enlace = mysqli_connect($servername, $username, $password, $db);
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Marcos Zingaretti">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-if (!$enlace) {
-    echo "Error: No se pudo conectar a MySQL." . PHP_EOL;
-    echo "error de depuración: " . mysqli_connect_errno() . PHP_EOL;
-    exit;
-}
+  <title>CB Negocios Inmobiliarios</title>
 
-echo "Éxito: Se realizó una conexión apropiada a MySQL! La base de datos mi_bd es genial." . PHP_EOL;
-echo "Información del host: " . mysqli_get_host_info($enlace) . PHP_EOL;
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/favicon.png">
+</head>
 
-<<<<<<< HEAD
 <body>
   <!--- EL HEADER DE LA PAGINA - HEADER --->
   <header>
@@ -58,39 +46,36 @@ echo "Información del host: " . mysqli_get_host_info($enlace) . PHP_EOL;
     <div class="contenedor">
       <h2>Nuestras Propiedades</h2>
 
-      <form class="cards" action="propiedades.php" method="post">
-        <div class="card">
-          <div class="card-text">
-            <h3>$nombre</h3>
-            <p>Descripcion</p>
-          </div>
+      <div class="card">
+        <div class="card-text">
+          <h3 name="titulo">Titulo</h3>
+          <p>Descripcion</p>
         </div>
-        <div class="card">
-          <div class="card-text">
-            <h3>Titulo</h3>
-            <p>Descripcion</p>
-          </div>
+      </div>
+      <div class="card">
+        <div class="card-text">
+          <h3>Titulo</h3>
+          <p>Descripcion</p>
         </div>
-        <div class="card">
-          <div class="card-text">
-            <h3>Titulo</h3>
-            <p>Descripcion</p>
-          </div>
+      </div>
+      <div class="card">
+        <div class="card-text">
+          <h3>Titulo</h3>
+          <p>Descripcion</p>
         </div>
-        <div class="card">
-          <div class="card-text">
-            <h3>Titulo</h3>
-            <p>Descripcion</p>
-          </div>
+      </div>
+      <div class="card">
+        <div class="card-text">
+          <h3>Titulo</h3>
+          <p>Descripcion</p>
         </div>
-        <div class="card">
-          <div class="card-text">
-            <h3>Titulo</h3>
-            <p>Descripcion</p>
-          </div>
+      </div>
+      <div class="card">
+        <div class="card-text">
+          <h3>Titulo</h3>
+          <p>Descripcion</p>
         </div>
-      </form>
-
+      </div>
     </div>
   </section>
 
@@ -139,7 +124,3 @@ echo "Información del host: " . mysqli_get_host_info($enlace) . PHP_EOL;
 </body>
 
 </html>
-=======
-mysqli_close($enlace);
-?>
->>>>>>> 08e3ce051cc1843d0633b009f394777bd272ecda
