@@ -1,3 +1,7 @@
+<?php
+  include("propiedades.php")
+?>
+
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 
@@ -78,9 +82,7 @@
           </div>
         </div>
       </form>
-      <?php
-        include("propiedades.php")
-      ?>
+
     </div>
   </section>
 
