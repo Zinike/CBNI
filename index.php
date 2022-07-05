@@ -9,7 +9,7 @@ if(!$conn){
   echo "Connection error: " . mysqli_connect_error();
 }
 
-$sql = "SELECT `NOMBRE` FROM `venta`;";
+$sql = SELECT `NOMBRE` FROM `venta`;
 
 $resultado = mysqli_query($conn, $sql);
 
