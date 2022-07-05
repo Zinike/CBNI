@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
 <?php
 
 $conn = mysqli_connect("localhost","u523579628_marcoszinga","Mfzv1994","u523579628_propiedades");
@@ -15,12 +17,6 @@ $propiedades = mysqli_fetch_all($resultado, MYSQLI_ASSOC);
 
 print_r($propiedades);
 ?>
-
-
-
-<!DOCTYPE html>
-<html lang="es" dir="ltr">
-
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Marcos Zingaretti">
