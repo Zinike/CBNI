@@ -14,6 +14,7 @@ $sql = "SELECT `NOMBRE` FROM `venta`;";
 $resultado = mysqli_query($conn, $sql);
 
 $propiedades = mysqli_fetch_all($resultado, MYSQLI_ASSOC);
+echo $propiedades;
 
 ?>
 
