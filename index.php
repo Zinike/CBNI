@@ -12,6 +12,9 @@ if(!$conn){
 $sql = 'SELECT * FROM `venta` WHERE 1';
 
 $resultado = mysqli_query($conn, $sql);
+while ($row = $resultado->fetch_array()){
+  echo $row['NOMBRE'];
+}
 
 $propiedades = mysqli_fetch_all($resultado, MYSQLI_ASSOC);
 
@@ -64,10 +67,10 @@ echo $propiedades;
   <section id="propiedades">
     <div class="contenedor">
       <h2>Nuestras Propiedades</h2>
-      <form class="cards" method="get">
+      <form class="cards" method="post">
         <div class="card">
           <div class="card-text">
-            <h3 name="titulo" name="NOMBRE"><?php echo $_GET['NOMBRE'] ?></h3>
+            <h3 name="titulo" name="NOMBRE"><?php echo mysqli_result ?></h3>
             <p>Descripción</p>
           </div>
         </div>
