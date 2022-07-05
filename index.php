@@ -64,7 +64,7 @@ $resultado = mysqli_query($conn, $sql);
           <div class="card-title">
             <h3 style="color:red" name="NOMBRE">
               <?php
-                echo $resultado[1];
+              
               ?>
             </h3>
           </div>
