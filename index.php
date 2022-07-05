@@ -9,7 +9,7 @@ if(!$conn){
   echo "Connection error: " . mysqli_connect_error();
 }
 
-$sql = "SELECT * FROM `venta`;";
+$sql = "SELECT TIPO, NOMBRE, APELLIDO FROM 'venta'";
 
 $resultado = mysqli_query($conn, $sql);
 
@@ -64,7 +64,7 @@ $propiedades = mysqli_fetch_all($resultado, MYSQLI_ASSOC);
       <form class="cards" method="post">
         <div class="card">
           <div class="card-text">
-            <h3 name="titulo"><?php echo ($propiedades[5]) ?></h3>
+            <h3 name="titulo"><?php echo ($NOMBRE) ?></h3>
             <p>Descripción</p>
           </div>
         </div>
