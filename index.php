@@ -65,7 +65,7 @@ $propiedades = mysqli_fetch_all($resultado, MYSQLI_ASSOC);
       <form class="cards" method="post">
         <div class="card">
           <div class="card-text">
-            <h3 name="titulo"><?php echo [1] ?></h3>
+            <h3 name="titulo"><?php echo [2] ?></h3>
             <p>Descripción</p>
           </div>
         </div>
