@@ -64,7 +64,7 @@ echo $propiedades;
   <section id="propiedades">
     <div class="contenedor">
       <h2>Nuestras Propiedades</h2>
-      <form class="cards" method="post">
+      <form class="cards" method="get">
         <div class="card">
           <div class="card-text">
             <h3 name="titulo"><?php  ?></h3>
