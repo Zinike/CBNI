@@ -61,12 +61,14 @@ $resultado = mysqli_query($conn, $sql);
       <h2>Nuestras Propiedades</h2>
       <form class="cards" method="post">
         <div class="card">
-          <div class="card-text">
+          <div class="card-title">
             <h3 style="color:red" name="NOMBRE">
               <?php
                 echo $resultado;
               ?>
             </h3>
+          </div>
+          <div class="card-text">
             <p>Descripción</p>
           </div>
         </div>
