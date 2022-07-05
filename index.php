@@ -14,6 +14,7 @@ $sql = 'SELECT * FROM `venta` WHERE 2';
 $resultado = mysqli_query($conn, $sql);
 
 $propiedades = mysqli_fetch_all($resultado, MYSQLI_ASSOC);
+
 ?>
 
 
@@ -64,7 +65,7 @@ $propiedades = mysqli_fetch_all($resultado, MYSQLI_ASSOC);
       <form class="cards" method="post">
         <div class="card">
           <div class="card-text">
-            <h3 name="titulo"><?php echo $propiedades ?></h3>
+            <h3 name="titulo"><?php echo $propiedades; ?></h3>
             <p>Descripción</p>
           </div>
         </div>
