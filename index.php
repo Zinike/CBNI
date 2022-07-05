@@ -68,7 +68,7 @@ $propiedades = mysqli_fetch_all($resultado, MYSQLI_ASSOC);
       <form class="cards" method="post">
         <div class="card">
           <div class="card-text">
-            <h3 style="color:red" name="titulo" name="NOMBRE"><?phpwhile ($row = $resultado->fetch_array()){echo $row['NOMBRE'];} ?></h3>
+            <h3 style="color:red" name="titulo" name="NOMBRE"><?php while ($row = $resultado->fetch_array()){echo $row['NOMBRE'];} ?></h3>
             <p>Descripción</p>
           </div>
         </div>
