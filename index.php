@@ -67,7 +67,7 @@ echo $propiedades;
       <form class="cards" method="get">
         <div class="card">
           <div class="card-text">
-            <h3 name="titulo"><?php echo 'NOMBRE' ?>Propiedad</h3>
+            <h3 name="titulo"><?php echo $_GET['NOMBRE'] ?></h3>
             <p>Descripción</p>
           </div>
         </div>
