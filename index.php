@@ -15,7 +15,10 @@ $resultado = mysqli_query($conn, $sql);
 
 $propiedades = mysqli_fetch_all($resultado, MYSQLI_ASSOC);
 
+print_r($propiedades);
 ?>
+
+
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Marcos Zingaretti">
