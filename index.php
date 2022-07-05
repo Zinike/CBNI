@@ -70,7 +70,7 @@ echo $propiedades;
       <form class="cards" method="post">
         <div class="card">
           <div class="card-text">
-            <h3 name="titulo" name="NOMBRE"><?php echo mysqli_result ?></h3>
+            <h3 name="titulo" name="NOMBRE"><?php echo $row['NOMBRE'] ?></h3>
             <p>Descripción</p>
           </div>
         </div>
