@@ -15,7 +15,6 @@ $resultado = mysqli_query($conn, $sql);
 
 ?>
 
-
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Marcos Zingaretti">
@@ -63,7 +62,7 @@ $resultado = mysqli_query($conn, $sql);
       <form class="cards" method="post">
         <div class="card">
           <div class="card-text">
-            <h3 style="color:red" name="titulo" name="NOMBRE">
+            <h3 style="color:red" name="NOMBRE">
               <?php
                 echo $resultado;
               ?>
