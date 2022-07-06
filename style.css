@@ -466,7 +466,7 @@ body {
 
   #propiedades .contenedor .cards .card p {
     z-index: 100;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
