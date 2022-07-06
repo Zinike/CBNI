@@ -440,6 +440,11 @@ body {
     align-items: center;
   }
 
+  #propiedades .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   #propiedades .card img {
     display: block;
     width: 100%;
