@@ -440,7 +440,7 @@ body {
     align-items: center;
   }
 
-  #propiedades .card {
+  #propiedades .cards .card {
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -451,15 +451,22 @@ body {
     transition: all 0.5s;
   }
 
-  #propiedades .card:hover {
+  #propiedades .cards .card:hover {
     transform: scale(1.1);
   }
 
-  #propiedades .card img {
+  #propiedades .cards .card img {
     display: flex;
     width: 100%;
     height: 100%;
     border-radius: 8px;
+  }
+
+  #propiedades .cards .card .text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
   }
 
   #contacto {
