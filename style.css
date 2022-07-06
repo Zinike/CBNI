@@ -444,8 +444,8 @@ body {
   #propiedades .card {
     display: flex;
     flex-direction: column;
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 200px;
     background-color: #555;
     margin: 15px;
     transition: all 0.5s;
