@@ -20,6 +20,7 @@ $venta = "SELECT * FROM venta";
 
   <title>CB Negocios Inmobiliarios</title>
 
+  </script>
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="images/favicon.png">
 </head>
@@ -63,9 +64,9 @@ $venta = "SELECT * FROM venta";
           $resultado = mysqli_query($conn, $venta);
           while ($row = myslqi_fetch_assoc($resultado)) {
           ?>
-            <div style="color:red" class="titulo"><?php echo $row["NOMBRE"];?></div>
-            <div class="descripcion"><?php echo $row["DESCRIPCION"];?></div>
-          <?php } ?>
+          <div style="color:red" class="titulo"><?php echo $row["NOMBRE"];?></div>
+          <div class="descripcion"><?php echo $row["DESCRIPCION"];?></div>
+          <?php }?>
         </div>
       </form>
     </div>
