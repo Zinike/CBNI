@@ -69,6 +69,7 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
         <div class="swiper-button-prev">Anterior</div>
       </div>
     </section>
+    </section>
 
     <section id="contacto">
       <h2>Contacto</h2>
@@ -133,6 +134,6 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
         },
       });
     </script>
-    
+
   </body>
 </html>
