@@ -431,7 +431,7 @@ body {
     align-items: center;
   }
 
-  #propiedades .cards {
+  #propiedades .contenedor .cards {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -440,7 +440,7 @@ body {
     align-items: center;
   }
 
-  #propiedades .cards .card {
+  #propiedades .contenedor .cards .card {
     overflow: hidden;
     height: 200px;
     width: 200px;
@@ -450,11 +450,11 @@ body {
     transition: all 500ms;
   }
 
-  #propiedades .cards .card:hover {
+  #propiedades .contenedor .cards .card:hover {
     transform: scale(1.25);
   }
 
-  #propiedades .cards .card img {
+  #propiedades .contenedor .cards .card img {
     z-index: 5;
     position: relative;
     width: 100%;
@@ -464,10 +464,9 @@ body {
     border-radius: 8px;
   }
 
-  #propiedades .cards .card p {
+  #propiedades .contenedor .cards .card p {
     z-index: 10;
-    position: relative;
-    display: flex;
+    position: absolute;
     width: 100%;
     height: 100%;
     flex-direction: column;
