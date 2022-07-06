@@ -51,7 +51,7 @@ $alquiler = "SELECT * FROM alquiler";
       <div class="contenedor">
         <h2>Nuestras Propiedades</h2>
         <form class="cards">
-          <div class="card">
+<!--          <div class="card">
             <?php $resultado = mysqli_query($conn, $venta);
             while ($row=myslqi_fetch_assoc($resultado)) {?>
             <div class="item">
@@ -62,7 +62,7 @@ $alquiler = "SELECT * FROM alquiler";
             </div>
             <?php }?>
             <?php mysqli_free_result($resultado);?>
-          </div>
+          </div> -->
         </form>
       </div>
     </section>
