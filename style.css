@@ -486,7 +486,7 @@ body {
   }
 
   #propiedades .contenedor .cards .card .back {
-    transform: perspective(200px) rotateY(0deg);
+    transform: perspective(200px) rotateY(180deg);
   }
 
   #propiedades .contenedor .cards .card .back p {
