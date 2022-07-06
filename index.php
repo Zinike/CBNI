@@ -21,8 +21,8 @@ $alquiler = "SELECT * FROM alquiler";
     <link rel="shortcut icon" href="images/favicon.png">
   </head>
 
+
   <body>
-    <!--- EL HEADER DE LA PAGINA - HEADER --->
     <header>
       <div class="contenedor">
         <img class="logo" src="images/logo.png" alt="logo">
@@ -37,20 +37,20 @@ $alquiler = "SELECT * FROM alquiler";
       </div>
     </header>
 
-    <!--- LA PRIMER SECCION DE LA PAGINA - HERO --->
+
     <section id="hero">
       <div class="hero">
         <img class="logo2" src="images/logo2.png" alt="logo">
       </div>
     </section>
 
-    <!--- LA SEGUNDA SECCION DE LA PAGINA - NOSOTROS --->
+
     <section id="nosotros">
       <h2>Sobre Nosotros</h2>
       <h3>Somos una pequeña inmobiliaria brindando lo mejor de nosotros para que te sientas parte de nuestra familia.</h3>
     </section>
 
-    <!--- LA TERCERA SECCION DE LA PAGINA - PROPIEDADES --->
+
     <section id="propiedades">
       <div class="contenedor">
         <h2>Nuestras Propiedades</h2>
@@ -68,7 +68,7 @@ $alquiler = "SELECT * FROM alquiler";
       </div>
     </section>
 
-    <!--- LA CUARTA SECCION DE LA PAGINA - CONTACTO --->
+
     <section id="contacto">
       <h2>Contacto</h2>
       <div class="contenedor">
@@ -105,7 +105,7 @@ $alquiler = "SELECT * FROM alquiler";
       </div>
     </section>
 
-    <!--- LA ULTIMA SECCION DE LA PAGINA --->
+
     <footer>
       <p>Todos los derechos reservados &#169
       </p>
