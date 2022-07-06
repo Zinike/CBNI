@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
-
 <?php
 $conn = mysqli_connect("localhost","u523579628_marcoszinga","Mfzv1994","u523579628_propiedades");
 if(!$conn){
@@ -9,7 +7,7 @@ if(!$conn){
 $venta = "SELECT * FROM venta";
 $alquiler = "SELECT * FROM alquiler";
 ?>
-
+<html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Marcos Zingaretti">
