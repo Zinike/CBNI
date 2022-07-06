@@ -51,8 +51,20 @@ $venta = "SELECT * FROM venta";
     <section id="propiedades">
       <div class="contenedor">
         <h2>Nuestras Propiedades</h2>
+        <h3>Venta</h3>
         <form class="cards">
             <?php $resultado = mysqli_query($conn, $venta);
+            while ($row=mysqli_fetch_assoc($resultado)) {?>
+            <div class="card">
+              <div class="item"><p><?php echo $row["NOMBRE"];?></p></div>
+              <div class="item"><p><?php echo $row["DESCRIPCION"];?></p></div>
+            </div>
+            <?php }?>
+            <?php mysqli_free_result($resultado);?>
+        </form>
+        <h3>Alquiler</h3>
+        <form class="cards">
+            <?php $resultado = mysqli_query($conn, $alquiler);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
             <div class="card">
               <div class="item"><p><?php echo $row["NOMBRE"];?></p></div>
