@@ -447,6 +447,7 @@ body {
     margin: 15px;
     border-radius: 8px;
     background-color: #555;
+    cursor: pointer;
     transition: all 500ms;
   }
 
