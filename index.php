@@ -57,7 +57,7 @@ $alquiler = "SELECT * FROM alquiler";
             <?php $resultado = mysqli_query($conn, $venta);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
             <div class="card">
-              <div class="item"><p><?php echo $row["NOMBRE"];?></p></div>
+              <div class="item"><p><?php echo $row["TIPO"];?></p></div>
               <div class="item"><p><?php echo $row["DESCRIPCION"];?></p></div>
             </div>
             <?php }?>
@@ -69,7 +69,7 @@ $alquiler = "SELECT * FROM alquiler";
             <?php $resultado = mysqli_query($conn, $alquiler);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
             <div class="card">
-              <div class="item"><p><?php echo $row["NOMBRE"];?></p></div>
+              <div class="item"><p><?php echo $row["TIPO"];?></p></div>
               <div class="item"><p><?php echo $row["DESCRIPCION"];?></p></div>
             </div>
             <?php }?>
