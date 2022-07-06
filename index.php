@@ -10,9 +10,8 @@ $venta = "SELECT * FROM venta";
 $alquiler = "SELECT * FROM alquiler";
 
 $resultado = mysqli_query($conn, $venta);
-$row=myslqi_fetch_assoc($resultado);
+$row = mysqli_fetch_assoc($resultado);
 ?>
-
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Marcos Zingaretti">
