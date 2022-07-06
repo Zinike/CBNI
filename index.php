@@ -54,7 +54,7 @@ $alquiler = "SELECT * FROM alquiler";
     <section id="propiedades">
       <div class="contenedor">
         <h2>Nuestras Propiedades</h2>
-        <form class="cards" method="get">
+        <form class="cards">
           <div class="card">Hola?
 
               <?php
