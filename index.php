@@ -60,7 +60,7 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
               <div class="foto"><img src="<?php echo $row['FOTO'];?>" alt="imagen"></div>
               <div class="nombre"><p><?php echo $row['TIPO'];?></p></div>
               <div class="descripcion"><p><?php echo $row['DESCRIPCION'];?></p></div>
-              <div class="precio"><p>$ <?php echo $row['PRECIO'];?></p></div>
+              <div class="precio"><p><?php echo $row['PRECIO'];?></p></div>
             </div>
             <?php }?>
             <?php mysqli_free_result($resultado);?>
@@ -74,7 +74,7 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
               <div class="foto"><img src="<?php echo $row['FOTOS'];?>" alt="imagen"></div>
               <div class="nombre"><p><?php echo $row['TIPO'];?></p></div>
               <div class="descripcion"><p><?php echo $row['DESCRIPCION'];?></p></div>
-              <div class="precio"><p>$ <?php echo $row['PRECIO'];?></p></div>
+              <div class="precio"><p><?php echo $row['PRECIO'];?></p></div>
             </div>
             <?php }?>
             <?php mysqli_free_result($resultado);?>
