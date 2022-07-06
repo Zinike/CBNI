@@ -54,7 +54,7 @@ $alquiler = "SELECT * FROM alquiler";
       <div class="contenedor">
         <h2>Nuestras Propiedades</h2>
         <form class="cards" method="post">
-          <div class="card">Hola?
+          <div class="card">
 
               <?php
                 $resultado = mysqli_query($conn, $venta);
@@ -63,7 +63,7 @@ $alquiler = "SELECT * FROM alquiler";
                 <div class="titulo"> <?php echo nombre;?> </div>
                 <div class="descripcion"> <?php echo descripcion;?> </div>
               <?php };?>
-
+hola
           </div>
         </form>
       </div>
