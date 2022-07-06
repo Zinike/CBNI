@@ -447,7 +447,7 @@ body {
 
   #propiedades .card img {
     display: block;
-    width: 100%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
