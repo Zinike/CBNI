@@ -506,6 +506,7 @@ body {
     align-content: center;
     justify-content: center;
     border-top: solid 1px #fff;
+    height: 50px;
   }
 
   #propiedades .contenedor .cards .tarjeta:hover .front {
