@@ -13,7 +13,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  background-color: #fff;
+  background-color: #444;
 }
 
 body {
@@ -435,7 +435,6 @@ body {
     justify-content: center;
     height: auto;
     width: 100%;
-    background-color: #000;
   }
 
   #propiedades .contenedor {
