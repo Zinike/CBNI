@@ -63,9 +63,8 @@ $resultado = mysqli_query($conn, $sql);
         <div class="card">
           <div class="card-title">
             <h3 style="color:red" name="NOMBRE">Titulo HTML
-              <input name="NOMBRE[1]" />
               <?php
-                echo "titulo PHP";
+                echo $_POST['NOMBRE'];
               ?>
             </h3>
           </div>
