@@ -8,10 +8,8 @@ if(!$conn){
 }
 $venta = "SELECT * FROM venta";
 $alquiler = "SELECT * FROM alquiler";
-
-$resultado = mysqli_query($conn, $venta);
-$row = mysqli_fetch_assoc($resultado);
 ?>
+
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Marcos Zingaretti">
@@ -54,12 +52,16 @@ $row = mysqli_fetch_assoc($resultado);
         <h2>Nuestras Propiedades</h2>
         <form class="cards">
           <div class="card">
+            <?php
+            $resultado = mysqli_query($conn, $venta);
+            $row=mysqli_fetch_assoc($resultado) ?>
             <div class="item">
               <p><?php echo $row["NOMBRE"];?></p>
               </div>
               <div class="item">
               <p><?php echo $row["DESCRIPCION"];?></p>
               </div>
+            <?php mysqli_free_result($resultado);?>
           </div>
         </form>
       </div>
@@ -107,6 +109,5 @@ $row = mysqli_fetch_assoc($resultado);
     </footer>
 
     <script src="script.js"></script>
-    <?php mysqli_free_result($resultado);?>
   </body>
 </html>
