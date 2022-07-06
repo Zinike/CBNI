@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-<!--
-<?php
+
+  <?php
 $conn = mysqli_connect("localhost","u523579628_marcoszinga","Mfzv1994","u523579628_propiedades");
 if(!$conn){
   echo "Connection error: " . mysqli_connect_error();
@@ -9,7 +9,7 @@ if(!$conn){
 $venta = "SELECT * FROM venta";
 $alquiler = "SELECT * FROM alquiler";
 ?>
--->
+
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Marcos Zingaretti">
@@ -21,7 +21,6 @@ $alquiler = "SELECT * FROM alquiler";
     <link rel="shortcut icon" href="images/favicon.png">
   </head>
 
-
   <body>
     <header>
       <div class="contenedor">
@@ -29,7 +28,7 @@ $alquiler = "SELECT * FROM alquiler";
         <img id="menu_icon" class="menu_icon" src="images/menu.png" alt="menu_icon" height="30px">
         <nav class="menu">
           <ul>
-            <a href="#nosotros">¿Quiénes somos?</a>
+            <a href="#nosotros">Nosotros</a>
             <a href="#propiedades">Propiedades</a>
             <a href="#contacto">Contacto</a>
           </ul>
@@ -37,36 +36,36 @@ $alquiler = "SELECT * FROM alquiler";
       </div>
     </header>
 
-
     <section id="hero">
       <div class="hero">
         <img class="logo2" src="images/logo2.png" alt="logo">
       </div>
     </section>
 
-
     <section id="nosotros">
       <h2>Sobre Nosotros</h2>
       <h3>Somos una pequeña inmobiliaria brindando lo mejor de nosotros para que te sientas parte de nuestra familia.</h3>
     </section>
-
 
     <section id="propiedades">
       <div class="contenedor">
         <h2>Nuestras Propiedades</h2>
         <form class="cards">
           <div class="card">
-          <?php $resultado = mysqli_query($conn, $venta);
+            <?php $resultado = mysqli_query($conn, $venta);
             while ($row=myslqi_fetch_assoc($resultado)) {?>
-              <div class="item"><?php echo $row["NOMBRE"];?></div>
-              <div class="item"><?php echo $row["DESCRIPCION"];?></div>
+            <div class="item">
+              <p><?php echo $row["NOMBRE"];?></p>
+            </div>
+            <div class="item">
+              <p><?php echo $row["DESCRIPCION"];?></p>
+            </div>
             <?php }?>
-          <?php mysqli_free_result($resultado);?>
+            <?php mysqli_free_result($resultado);?>
           </div>
         </form>
       </div>
     </section>
-
 
     <section id="contacto">
       <h2>Contacto</h2>
@@ -100,10 +99,10 @@ $alquiler = "SELECT * FROM alquiler";
               </div>
             </div>
           </div>
+
         </ul>
       </div>
     </section>
-
 
     <footer>
       <p>Todos los derechos reservados &#169</p>
