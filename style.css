@@ -464,7 +464,7 @@ body {
     border-radius: 8px;
   }
 
-  #propiedades .cards .card p {
+  #propiedades .cards .card .texto {
     z-index: 10;
     position: relative;
     display: flex;
