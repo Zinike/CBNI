@@ -443,11 +443,12 @@ body {
   #propiedades .cards .card {
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
     width: 200px;
     height: 300px;
-    background-color: #555;
     margin: 15px;
     border-radius: 8px;
+    background-color: #555;
     transition: all 500ms;
   }
 
