@@ -51,9 +51,9 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
     </section>
 
     <section id="propiedades">
+      <h2>Nuestras Propiedades</h2>
       <div class="swiper mySwiper contenedor">
-        <h2>Nuestras Propiedades</h2>
-
+        
         <h3>Alquiler</h3>
         <form class="swiper-wrapper cards">
             <?php $resultado = mysqli_query($conn, $alquiler);
