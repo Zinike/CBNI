@@ -6,8 +6,9 @@ $conn = mysqli_connect("localhost","u523579628_marcoszinga","Mfzv1994","u5235796
 if(!$conn){
   echo "Connection error: " . mysqli_connect_error();
 }
+
 $venta = "SELECT * FROM venta";
-$alquiler = "SELECT * FROM alquiler";
+// $alquiler = "SELECT * FROM alquiler";
 ?>
 
   <head>
