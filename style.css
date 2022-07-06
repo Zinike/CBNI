@@ -1,7 +1,7 @@
 /*   IMPORTACIONES   */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
-/* -------------------------------------------------------------------GENERAL */
+/* ---------------------------GENERAL */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -442,7 +442,7 @@ body {
 
   #propiedades .contenedor .cards {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
   }
 
   #propiedades .contenedor .cards .card {
