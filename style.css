@@ -455,7 +455,9 @@ body {
     transform: scale(1.25);
   }
 
-  #propiedades .contenedor .cards .card .face img {
+  #propiedades .contenedor .cards .card .face {}
+
+  #propiedades .contenedor .cards .card .front img {
     object-fit: cover;
     object-position: center center;
     border-radius: 8px;
