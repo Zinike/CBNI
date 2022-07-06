@@ -9,9 +9,7 @@ if(!$conn){
   echo "Connection error: " . mysqli_connect_error();
 }
 
-$sql = 'SELECT * FROM `venta` WHERE 1';
-
-$resultado = mysqli_query($conn, $sql);
+$sql = "SELECT * FROM venta";
 
 ?>
 
@@ -61,16 +59,13 @@ $resultado = mysqli_query($conn, $sql);
       <h2>Nuestras Propiedades</h2>
       <form class="cards" method="post">
         <div class="card">
-          <div class="card-title">
-            <h3 style="color:red" name="NOMBRE">Titulo HTML
-              <?php
-                echo $_GET['NOMBRE'];
-              ?>
-            </h3>
-          </div>
-          <div class="card-text">
-            <p>Descripción</p>
-          </div>
+          <?php
+            $resultado = mysqli_query($conn, $sql);
+            while ($row <= myslqi_fetch_assoc($resultado)) {
+          ?>
+          <div class="titulo"><?php echo $row["NOMBRE"]; ?></div>
+          <div class="descripcion"><?php echo $row["DESCRIPCION"]; ?></div>
+          <?php } ?>
         </div>
       </form>
     </div>
