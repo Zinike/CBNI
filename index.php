@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es" dir="ltr">
 
 <?php
@@ -71,25 +70,6 @@ $alquiler = "SELECT * FROM alquiler";
     </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <section id="contacto">
       <h2>Contacto</h2>
       <div class="contenedor">
@@ -133,5 +113,4 @@ $alquiler = "SELECT * FROM alquiler";
 
     <script src="script.js"></script>
   </body>
-
 </html>
