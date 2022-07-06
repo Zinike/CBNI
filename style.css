@@ -425,6 +425,10 @@ body {
     padding: 10px;
   }
 
+  .swiper {
+    width: 950px;
+  }
+
   #propiedades {
     display: flex;
     flex-direction: column;
