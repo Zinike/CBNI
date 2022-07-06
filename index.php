@@ -51,7 +51,43 @@ $alquiler = "SELECT * FROM alquiler";
     </section>
 
 
-    
+    <section id="propiedades">
+      <div class="contenedor">
+        <h2>Nuestras Propiedades</h2>
+        <form class="cards" method="post">
+          <div class="card">Hola?
+
+              <?php
+                $resultado = mysqli_query($conn, $venta);
+                while ($row = myslqi_fetch_assoc($resultado)) {?>
+
+                <div class="titulo"> <?php echo nombre;?> </div>
+                <div class="descripcion"> <?php echo descripcion;?> </div>
+              <?php };?>
+
+          </div>
+        </form>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <section id="contacto">
