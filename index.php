@@ -9,7 +9,7 @@ if(!$conn){
   echo "Connection error: " . mysqli_connect_error();
 }
 
-$sql = "SELECT * FROM venta";
+$venta = "SELECT * FROM venta";
 
 ?>
 
@@ -60,7 +60,7 @@ $sql = "SELECT * FROM venta";
       <form class="cards" method="post">
         <div class="card">
           <?php
-          $resultado = mysqli_query($conn, $sql);
+          $resultado = mysqli_query($conn, $venta);
           while ($row = myslqi_fetch_assoc($resultado)) {
           ?>
             <div class="titulo"><?php echo $row["NOMBRE"];?></div>
