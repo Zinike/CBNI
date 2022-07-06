@@ -494,11 +494,11 @@ body {
     justify-content: center;
   }
 
-  #propiedades .contenedor .cards .card:hover .front {
+  #propiedades .contenedor .cards:hover .front {
     transform: perspective(600px) rotateY(180deg);
   }
 
-  #propiedades .contenedor .cards .card:hover .back {
+  #propiedades .contenedor .cards:hover .back {
     transform: perspective(600px) rotateY(360deg);
   }
 
