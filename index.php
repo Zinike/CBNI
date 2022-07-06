@@ -2,16 +2,12 @@
 <html lang="es" dir="ltr">
 
 <?php
-
 $conn = mysqli_connect("localhost","u523579628_marcoszinga","Mfzv1994","u523579628_propiedades");
-
 if(!$conn){
   echo "Connection error: " . mysqli_connect_error();
 }
-
 $venta = "SELECT * FROM venta";
 $alquiler = "SELECT * FROM alquiler";
-
 ?>
 
   <head>
@@ -61,12 +57,12 @@ $alquiler = "SELECT * FROM alquiler";
         <form class="cards" method="post">
           <div class="card">
             <?php
-            $resultado = mysqli_query($conn, $venta);
-            while ($row = myslqi_fetch_assoc($resultado)) {
+              $resultado = mysqli_query($conn, $venta);
+              while ($row = myslqi_fetch_assoc($resultado)) {
             ?>
               <div style="color:red" class="titulo"><?php echo $row["NOMBRE"];?></div>
               <div class="descripcion"><?php echo $row["DESCRIPCION"];?></div>
-            <?php }?>
+            <?php };?>
           </div>
         </form>
       </div>
