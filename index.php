@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-
+<!--
 <?php
 $conn = mysqli_connect("localhost","u523579628_marcoszinga","Mfzv1994","u523579628_propiedades");
 if(!$conn){
   echo "Connection error: " . mysqli_connect_error();
-};
+}
 $venta = "SELECT * FROM venta";
 $alquiler = "SELECT * FROM alquiler";
 ?>
-
+-->
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Marcos Zingaretti">
@@ -50,25 +50,24 @@ $alquiler = "SELECT * FROM alquiler";
       <h3>Somos una pequeña inmobiliaria brindando lo mejor de nosotros para que te sientas parte de nuestra familia.</h3>
     </section>
 
-<!--
+
     <section id="propiedades">
       <div class="contenedor">
         <h2>Nuestras Propiedades</h2>
         <form class="cards">
           <div class="card">
-              <?php
-              $resultado = mysqli_query($conn, $venta);
-                while ($row=myslqi_fetch_assoc($resultado)) {?>
-                  <div class="item"><?php echo $row["NOMBRE"];?></div>
-                  <div class="item"><?php echo $row["DESCRIPCION"];?></div>
-                <?php }?>
-              <?php mysqli_free_result($resultado);?>
+          <?php $resultado = mysqli_query($conn, $venta);
+            while ($row=myslqi_fetch_assoc($resultado)) {?>
+              <div class="item"><?php echo $row["NOMBRE"];?></div>
+              <div class="item"><?php echo $row["DESCRIPCION"];?></div>
+            <?php }?>
+          <?php mysqli_free_result($resultado);?>
           </div>
         </form>
       </div>
     </section>
 
--->
+
     <section id="contacto">
       <h2>Contacto</h2>
       <div class="contenedor">
@@ -106,10 +105,10 @@ $alquiler = "SELECT * FROM alquiler";
     </section>
 
 
-    <footer>
+    <footer id="footer">
       <p>Todos los derechos reservados &#169</p>
     </footer>
+<?php echo <script src="script.js"></script> ?>
 
-    <script src="script.js"></script>
   </body>
 </html>
