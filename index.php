@@ -133,5 +133,6 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
         },
       });
     </script>
+    
   </body>
 </html>
