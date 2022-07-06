@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es" dir="ltr">
 
 <?php
@@ -53,7 +54,9 @@ $alquiler = "SELECT * FROM alquiler";
     <section id="propiedades">
       <div class="contenedor">
         <h2>Nuestras Propiedades</h2>
-        <form class="cards" method="post">
+        <form class="cards" method="get">
+          <div class="card">Hola?
+
               <?php
                 $resultado = mysqli_query($conn, $venta);
                 while ($row = myslqi_fetch_assoc($resultado)) {?>
@@ -61,6 +64,8 @@ $alquiler = "SELECT * FROM alquiler";
                 <div class="titulo"> <?php echo nombre;?> </div>
                 <div class="descripcion"> <?php echo descripcion;?> </div>
               <?php };?>
+
+          </div>
         </form>
       </div>
     </section>
