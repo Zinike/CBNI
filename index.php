@@ -105,10 +105,10 @@ $alquiler = "SELECT * FROM alquiler";
     </section>
 
 
-    <footer id="footer">
+    <footer>
       <p>Todos los derechos reservados &#169</p>
     </footer>
-<?php echo <script src="script.js"></script> ?>
 
+    <script src="script.js"></script>
   </body>
 </html>
