@@ -443,8 +443,8 @@ body {
   #propiedades .contenedor .cards .card {
     position: relative;
     overflow: hidden;
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
     margin: 15px;
     border-radius: 8px;
     background-color: #555;
