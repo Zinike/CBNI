@@ -1,7 +1,7 @@
 /*   IMPORTACIONES   */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
-/* ---------------------------GENERAL */
+/*   GENERAL   */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -186,7 +186,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 85vh;
+    height: auto;
     width: 100%;
     background-color: #000;
   }
@@ -223,8 +223,10 @@ body {
   }
 
   #propiedades .contenedor .cards .card img {
-    width: 100%;
-    height: 45%;
+    margin: 2%;
+    width: 96%;
+    height: 50%;
+    border-radius: 8px;
   }
 
   #contacto {
