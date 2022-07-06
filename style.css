@@ -490,7 +490,11 @@ body {
 
   #propiedades .contenedor .cards .tarjeta .face .back {
     transform: perspective(400px) rotateY(180deg);
-    background:
+    background: rgba(#000, .4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
   }
 
   #propiedades .contenedor .cards .tarjeta .face .back p {
@@ -498,7 +502,6 @@ body {
     width: 100%;
     height: 100%;
     margin: 20px;
-    background: rgba(#fff, .4);
     flex-direction: column;
     align-content: center;
     justify-content: center;
