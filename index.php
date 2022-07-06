@@ -59,10 +59,10 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
             <div class="card">
               <div class="face front">
                 <img src="<?php echo $row['FOTO'];?>" alt="imagen">
-                <p><?php echo $row['TIPO'];?></p>
+                <h4><?php echo $row['TIPO'];?></h4>
               </div>
               <div class="face back">
-                <p><?php echo $row['TIPO'];?></p>
+                <h4><?php echo $row['TIPO'];?></h4>
                 <p><?php echo $row['DESCRIPCION'];?></p>
               </div>
             </div>
@@ -79,10 +79,10 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
             <div class="card">
               <div class="face front">
                 <img src="<?php echo $row['FOTOS'];?>" alt="imagen">
-                <p><?php echo $row['TIPO'];?></p>
+                <h4><?php echo $row['TIPO'];?></h4>
               </div>
               <div class="face back">
-                <p><?php echo $row['TIPO'];?></p>
+                <h4><?php echo $row['TIPO'];?></h4>
                 <p><?php echo $row['DESCRIPCION'];?></p>
               </div>
             </div>
