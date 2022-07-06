@@ -418,7 +418,7 @@ body {
     padding: 10px;
   }
 
-  .swiper {
+  #propiedades .contenedor {
     width: 100%;
     height: auto;
     display: flex;
