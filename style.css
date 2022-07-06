@@ -455,7 +455,15 @@ body {
     transform: scale(1.25);
   }
 
-  #propiedades .contenedor .cards .card .face {}
+  #propiedades .contenedor .cards .card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 500ms;
+  }
 
   #propiedades .contenedor .cards .card .front img {
     object-fit: cover;
