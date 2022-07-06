@@ -432,10 +432,11 @@ body {
   }
 
   #propiedades .cards {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     font-size: 1rem;
     background: #111;
-    display: flex;
     justify-content: center;
     align-items: center;
   }
