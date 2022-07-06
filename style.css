@@ -418,15 +418,7 @@ body {
     padding: 10px;
   }
 
-  #propiedades {
-    margin: 50px;
-  }
-
-  #propiedades h2 {
-    margin: 50px;
-  }
-
-  #propiedades h3 {
+  #propiedades h2, h3 {
     margin: 50px;
   }
 
