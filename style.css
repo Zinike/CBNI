@@ -442,7 +442,7 @@ body {
 
   #propiedades .contenedor .cards {
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
   }
 
   #propiedades .contenedor .cards .card {
