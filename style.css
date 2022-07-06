@@ -427,7 +427,7 @@ body {
     align-items: center;
   }
 
-  .swiper-slide {
+  #propiedades .cards {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -445,7 +445,7 @@ body {
     align-items: center;
   }
 
-  .swiper-slide img {
+  #propiedades .card img {
     display: block;
     width: 100%;
     height: 100%;
