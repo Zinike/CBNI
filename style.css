@@ -445,6 +445,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #555;
+    margin: 25px;
     transition: all 0.5s;
   }
 
