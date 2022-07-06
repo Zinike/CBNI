@@ -64,7 +64,7 @@ $resultado = mysqli_query($conn, $sql);
           <div class="card-title">
             <h3 style="color:red" name="NOMBRE">Titulo HTML
               <?php
-                echo $_POST['NOMBRE'];
+                echo $_POST['NOMBRE' FROM `venta`];
               ?>
             </h3>
           </div>
