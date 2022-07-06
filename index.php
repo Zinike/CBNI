@@ -63,8 +63,8 @@ $sql = "SELECT * FROM venta";
           $resultado = mysqli_query($conn, $sql);
           while ($row = myslqi_fetch_assoc($resultado)) {
           ?>
-          <div class="titulo"><?php echo $row["NOMBRE"]; ?></div>
-          <div class="descripcion"><?php echo $row["DESCRIPCION"]; ?></div>
+            <div class="titulo"><?php echo $row["NOMBRE"];?></div>
+            <div class="descripcion"><?php echo $row["DESCRIPCION"];?></div>
           <?php } ?>
         </div>
       </form>
