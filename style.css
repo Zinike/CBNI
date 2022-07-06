@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 /*   GENERAL   */
-* {
+*, *::before, *::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
