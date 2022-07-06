@@ -462,7 +462,7 @@ body {
   }
 
   #propiedades .contenedor .cards .card .front {
-    transform: perspective(200px) rotateY(0deg);
+    transform: perspective(600px) rotateY(0deg);
   }
 
   #propiedades .contenedor .cards .card .front img {
@@ -482,7 +482,7 @@ body {
   }
 
   #propiedades .contenedor .cards .card .back {
-    transform: perspective(200px) rotateY(180deg);
+    transform: perspective(600px) rotateY(180deg);
   }
 
   #propiedades .contenedor .cards .card .back p {
