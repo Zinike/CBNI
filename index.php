@@ -60,8 +60,8 @@ $sql = "SELECT * FROM venta";
       <form class="cards" method="post">
         <div class="card">
           <?php
-            $resultado = mysqli_query($conn, $sql);
-            while ($row <= myslqi_fetch_assoc($resultado)) {
+          $resultado = mysqli_query($conn, $sql);
+          while ($row = myslqi_fetch_assoc($resultado)) {
           ?>
           <div class="titulo"><?php echo $row["NOMBRE"]; ?></div>
           <div class="descripcion"><?php echo $row["DESCRIPCION"]; ?></div>
