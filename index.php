@@ -64,7 +64,7 @@ $alquiler = "SELECT * FROM alquiler";
 
                 <div class="titulo"> <?php echo nombre;?> </div>
                 <div class="descripcion"> <?php echo descripcion;?> </div>
-              
+              <?php } ?>
 
           </div>
         </form>
