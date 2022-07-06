@@ -426,6 +426,10 @@ body {
     margin: 50px;
   }
 
+  #propiedades h3 {
+    margin: 50px;
+  }
+
   #propiedades .contenedor {
     width: 100%;
     height: auto;
