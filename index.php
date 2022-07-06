@@ -66,7 +66,7 @@ $alquiler = "SELECT * FROM alquiler";
 
         <h3>Alquiler</h3>
         <form class="cards">
-            <?php $resultado = mysqli_query($conn, $venta);
+            <?php $resultado = mysqli_query($conn, $alquiler);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
             <div class="card">
               <div class="item"><p><?php echo $row["NOMBRE"];?></p></div>
