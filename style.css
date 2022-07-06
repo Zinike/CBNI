@@ -418,6 +418,10 @@ body {
     padding: 10px;
   }
 
+  #propiedades {
+    margin: 100px;
+  }
+
   #propiedades .contenedor {
     width: 100%;
     height: auto;
@@ -447,7 +451,7 @@ body {
 
   #propiedades .card img {
     display: block;
-    width: 50%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
