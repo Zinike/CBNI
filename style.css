@@ -455,8 +455,8 @@ body {
 
   #propiedades .card img {
     display: flex;
-    width: 100%;
-    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
     object-fit: cover;
     border-radius: 8px;
   }
