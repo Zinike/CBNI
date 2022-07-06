@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="es" dir="ltr">
 
 <?php
@@ -50,7 +50,7 @@ $alquiler = "SELECT * FROM alquiler";
       <h3>Somos una pequeña inmobiliaria brindando lo mejor de nosotros para que te sientas parte de nuestra familia.</h3>
     </section>
 
-
+<!--
     <section id="propiedades">
       <div class="contenedor">
         <h2>Nuestras Propiedades</h2>
@@ -68,7 +68,7 @@ $alquiler = "SELECT * FROM alquiler";
       </div>
     </section>
 
-
+-->
     <section id="contacto">
       <h2>Contacto</h2>
       <div class="contenedor">
