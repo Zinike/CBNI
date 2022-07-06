@@ -466,6 +466,7 @@ body {
     margin: 2%;
     width: 96%;
     height: 50%;
+    border-radius: 8px;
   }
 
   #contacto {
