@@ -57,10 +57,10 @@ $alquiler = "SELECT * FROM alquiler";
             <?php $resultado = mysqli_query($conn, $venta);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
             <div class="card">
-              <div class="foto"><img src="<?php echo $row['foto'];?>" alt="imagen">"</div>
-              <div class="nombre"><p><?php echo $row["nombre"];?></p></div>
-              <div class="descripcion"><p><?php echo $row["descripcion"];?></p></div>
-              <div class="precio"><p>$ <?php echo $row["precio"];?></p></div>
+                <div class="foto"><img src="<?php echo $row['foto'];?>" alt="imagen">"</div>
+              <div class="nombre"><p><?php echo $row["TIPO"];?></p></div>
+              <div class="descripcion"><p><?php echo $row["DESCRIPCION"];?></p></div>
+              <div class="precio"><p>$ <?php echo $row["PRECIO"];?></p></div>
             </div>
             <?php }?>
             <?php mysqli_free_result($resultado);?>
@@ -72,9 +72,9 @@ $alquiler = "SELECT * FROM alquiler";
             while ($row=mysqli_fetch_assoc($resultado)) {?>
             <div class="card">
               <div class="foto"><img src="<?php echo $row['foto'];?>" alt="imagen">"</div>
-              <div class="nombre"><p><?php echo $row["nombre"];?></p></div>
-              <div class="descripcion"><p><?php echo $row["descripcion"];?></p></div>
-              <div class="precio"><p>$ <?php echo $row["precio"];?></p></div>
+              <div class="nombre"><p><?php echo $row["TIPO"];?></p></div>
+              <div class="descripcion"><p><?php echo $row["DESCRIPCION"];?></p></div>
+              <div class="precio"><p>$ <?php echo $row["PRECIO"];?></p></div>
             </div>
             <?php }?>
             <?php mysqli_free_result($resultado);?>
