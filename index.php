@@ -7,8 +7,8 @@ if(!$conn){
   echo "Connection error: " . mysqli_connect_error();
 }
 
-$venta = "SELECT * FROM `venta` ORDER BY `venta`.`FOTOS` DESC";
-$alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
+$venta = "SELECT * FROM `venta` ORDER BY `venta`.`FOTOS` ASC";
+$alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
 ?>
 
   <head>
