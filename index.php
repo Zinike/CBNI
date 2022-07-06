@@ -49,10 +49,10 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
     </section>
 
     <section id="propiedades">
-      <h2>Nuestras Propiedades</h2>
-
-      <h3>Alquiler</h3>
       <div class="contenedor">
+        <h2>Nuestras Propiedades</h2>
+
+        <h3>Alquiler</h3>
         <form class="cards">
             <?php $resultado = mysqli_query($conn, $alquiler);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
@@ -64,10 +64,8 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
             <?php }?>
             <?php mysqli_free_result($resultado);?>
         </form>
-      </div>
 
-      <h3>Venta</h3>
-      <div class="contenedor">
+        <h3>Venta</h3>
         <form class="cards">
             <?php $resultado = mysqli_query($conn, $venta);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
@@ -79,6 +77,8 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
             <?php }?>
             <?php mysqli_free_result($resultado);?>
         </form>
+
+
       </div>
     </section>
 
@@ -124,6 +124,5 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
     </footer>
 
     <script src="script.js"></script>
-
   </body>
 </html>
