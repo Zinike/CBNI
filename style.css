@@ -426,7 +426,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 85vh;
+    height: auto;
     width: 100%;
     background-color: #000;
   }
