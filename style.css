@@ -443,7 +443,6 @@ body {
 
   #propiedades .card {
     display: flex;
-    flex-wrap: wrap;
     transition: all 0.5s;
   }
 
