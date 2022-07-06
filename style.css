@@ -472,7 +472,7 @@ body {
     object-fit: cover;
   }
 
-  #propiedades .contenedor .cards .card .face .front p {
+  #propiedades .contenedor .cards .card .face .front h4 {
     position: relative;
     bottom: 0;
     width: 100%;
