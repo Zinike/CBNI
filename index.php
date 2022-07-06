@@ -55,15 +55,14 @@ $alquiler = "SELECT * FROM alquiler";
       <div class="contenedor">
         <h2>Nuestras Propiedades</h2>
         <form class="cards">
-          <div class="card">Hola?
-
+          <div class="card">
               <?php
                 $resultado = mysqli_query($conn, $venta);
 
                 while ($row=myslqi_fetch_assoc($resultado)) {?>
 
-                <div class="titulo"> <?php echo nombre;?> </div>
-                <div class="descripcion"> <?php echo descripcion;?> </div>
+                <div class="titulo"> <?php echo $row["NOBMRE"];?> </div>
+                <div class="descripcion"> <?php echo $row["DESCRIPCION"];?> </div>
               <?php } ?>
 
           </div>
