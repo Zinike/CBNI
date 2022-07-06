@@ -462,7 +462,7 @@ body {
     backface-visibility: hidden;
     border-radius: 8px;
     overflow: hidden;
-    transition: all 500ms;
+    transition: 500ms;
   }
 
   #propiedades .contenedor .cards .card .front {
