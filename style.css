@@ -466,7 +466,7 @@ body {
     display: flex;
     width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: scale-down;
     flex-direction: column;
     align-content: center;
     justify-content: center;
