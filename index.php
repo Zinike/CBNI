@@ -18,8 +18,6 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
 
     <title>CB Negocios Inmobiliarios</title>
 
-
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/favicon.png">
   </head>
@@ -72,11 +70,11 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
       </div>
 
       <h3>Venta</h3>
-      <div class="swiper mySwiper contenedor">
-        <form class="swiper-wrapper cards">
+      <div class="contenedor">
+        <form class="cards">
             <?php $resultado = mysqli_query($conn, $venta);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
-            <div class="swiper-slide card">
+            <div class="card">
               <div class="foto"><img src="<?php echo $row['FOTOS'];?>" alt="imagen"></div>
               <div class="nombre"><p><?php echo $row['TIPO'];?></p></div>
               <div class="descripcion"><p><?php echo $row['DESCRIPCION'];?></p></div>
