@@ -5,7 +5,7 @@
 $conn = mysqli_connect("localhost","u523579628_marcoszinga","Mfzv1994","u523579628_propiedades");
 if(!$conn){
   echo "Connection error: " . mysqli_connect_error();
-}
+};
 $venta = "SELECT * FROM venta";
 $alquiler = "SELECT * FROM alquiler";
 ?>
@@ -57,7 +57,7 @@ $alquiler = "SELECT * FROM alquiler";
         <form class="cards">
           <div class="card">
               <?php
-                $resultado = mysqli_query($conn, $venta);
+              $resultado = mysqli_query($conn, $venta);
                 while ($row=myslqi_fetch_assoc($resultado)) {?>
                   <div class="item"><?php echo $row["NOMBRE"];?></div>
                   <div class="item"><?php echo $row["DESCRIPCION"];?></div>
