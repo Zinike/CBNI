@@ -8,6 +8,8 @@ if(!$conn){
 }
 $venta = "SELECT * FROM venta";
 $alquiler = "SELECT * FROM alquiler";
+
+$resultado = mysqli_query($conn, $venta);
 ?>
 
   <head>
@@ -58,7 +60,6 @@ $alquiler = "SELECT * FROM alquiler";
           <div class="card">Hola?
 
               <?php
-                $resultado = mysqli_query($conn, $venta);
                 while ($row = myslqi_fetch_assoc($resultado)) {?>
 
                 <div class="titulo"> <?php echo nombre;?> </div>
