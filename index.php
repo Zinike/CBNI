@@ -53,7 +53,6 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
     <section id="propiedades">
       <h2>Nuestras Propiedades</h2>
       <div class="swiper mySwiper contenedor">
-
         <form class="swiper-wrapper cards">
             <?php $resultado = mysqli_query($conn, $alquiler);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
@@ -65,10 +64,9 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
             <?php }?>
             <?php mysqli_free_result($resultado);?>
         </form>
-        <div class="swiper-button-next">Siguiente</div>
-        <div class="swiper-button-prev">Anterior</div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-    </section>
     </section>
 
     <section id="contacto">
