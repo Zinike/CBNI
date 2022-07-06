@@ -61,7 +61,7 @@ $alquiler = "SELECT * FROM alquiler";
                 while ($row=myslqi_fetch_assoc($resultado)) {?>
                 <div class="titulo"> <?php echo $row["NOMBRE"];?> </div>
                 <div class="descripcion"> <?php echo $row["DESCRIPCION"];?> </div>
-              <?php } ?>
+              <?php } mysqli_free_result($resultado);?>
           </div>
         </form>
       </div>
