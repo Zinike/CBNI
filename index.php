@@ -78,11 +78,12 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
             while ($row=mysqli_fetch_assoc($resultado)) {?>
             <div class="card">
               <div class="face front">
-                <div class="foto"><img src="<?php echo $row['FOTOS'];?>" alt="imagen"></div>
+                <img src="<?php echo $row['FOTOS'];?>" alt="imagen">
+                <p><?php echo $row['TIPO'];?></p>
               </div>
               <div class="face back">
-                <div class="tipo"><p><?php echo $row['TIPO'];?></p></div><br>
-                <div class="descripcion"><p><?php echo $row['DESCRIPCION'];?></p></div>
+                <p><?php echo $row['TIPO'];?></p>
+                <p><?php echo $row['DESCRIPCION'];?></p>
               </div>
             </div>
             <?php }?>
