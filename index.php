@@ -63,7 +63,7 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
               </div>
               <div class="face back">
                 <h4><?php echo $row['TIPO'];?></h4>
-                <p><?php echo $row['DESCRIPCION'];?></p>
+                
               </div>
             </div>
             <?php }?>
