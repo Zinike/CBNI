@@ -461,18 +461,18 @@ body {
     transition: 500ms;
   }
 
-  #propiedades .contenedor .cards .card .front {
+  #propiedades .contenedor .cards .card .face .front {
     transform: perspective(600px) rotateY(0deg);
   }
 
-  #propiedades .contenedor .cards .card .front img {
-    position: relative;
+  #propiedades .contenedor .cards .card .face .front img {
+    position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  #propiedades .contenedor .cards .card .front p {
+  #propiedades .contenedor .cards .card .face .front p {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -481,11 +481,11 @@ body {
     text-align: center;
   }
 
-  #propiedades .contenedor .cards .card .back {
+  #propiedades .contenedor .cards .card .face .back {
     transform: perspective(600px) rotateY(180deg);
   }
 
-  #propiedades .contenedor .cards .card .back p {
+  #propiedades .contenedor .cards .card .face .back p {
     position: relative;
     width: 100%;
     height: 100%;
@@ -494,11 +494,11 @@ body {
     justify-content: center;
   }
 
-  #propiedades .contenedor .cards:hover .front {
+  #propiedades .contenedor .cards .card:hover .front {
     transform: perspective(600px) rotateY(180deg);
   }
 
-  #propiedades .contenedor .cards:hover .back {
+  #propiedades .contenedor .cards .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
   }
 
