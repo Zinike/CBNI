@@ -54,23 +54,6 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
       <h2>Nuestras Propiedades</h2>
       <div class="swiper mySwiper contenedor">
         
-        <h3>Alquiler</h3>
-        <form class="swiper-wrapper cards">
-            <?php $resultado = mysqli_query($conn, $alquiler);
-            while ($row=mysqli_fetch_assoc($resultado)) {?>
-            <div class="swiper-slide card">
-              <div class="foto"><img src="<?php echo $row['FOTO'];?>" alt="imagen"></div>
-              <div class="nombre"><p><?php echo $row['TIPO'];?></p></div>
-              <div class="descripcion"><p><?php echo $row['DESCRIPCION'];?></p></div>
-            </div>
-            <?php }?>
-            <?php mysqli_free_result($resultado);?>
-        </form>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-
-        <h3>Venta</h3>
         <form class="swiper-wrapper cards">
             <?php $resultado = mysqli_query($conn, $venta);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
