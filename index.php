@@ -66,6 +66,9 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
             <?php }?>
             <?php mysqli_free_result($resultado);?>
         </form>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
 
         <h3>Venta</h3>
         <form class="cards">
