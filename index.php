@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 
-  <?php
+<?php
 $conn = mysqli_connect("localhost","u523579628_marcoszinga","Mfzv1994","u523579628_propiedades");
 if(!$conn){
   echo "Connection error: " . mysqli_connect_error();
@@ -51,18 +51,18 @@ $alquiler = "SELECT * FROM alquiler";
       <div class="contenedor">
         <h2>Nuestras Propiedades</h2>
         <form class="cards">
-<!--          <div class="card">
+          <div class="card">
             <?php $resultado = mysqli_query($conn, $venta);
-            while ($row=myslqi_fetch_assoc($resultado)) {?>
-            <div class="item">
+            while ($row=myslqi_fetch_assoc($resultado)){?>
+              <div class="item">
               <p><?php echo $row["NOMBRE"];?></p>
-            </div>
-            <div class="item">
+              </div>
+              <div class="item">
               <p><?php echo $row["DESCRIPCION"];?></p>
-            </div>
-            <?php }?>
+              </div>
+            <?php} ?>
             <?php mysqli_free_result($resultado);?>
-          </div> -->
+          </div>
         </form>
       </div>
     </section>
