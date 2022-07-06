@@ -290,7 +290,7 @@ body {
 /*   DESKTOP   */
 @media screen and (min-width: 768px) {
   h1 {
-    color: #ffc85e;
+    color: #fff;
     text-align: center;
     text-decoration: none;
     font-size: 8em;
@@ -298,7 +298,7 @@ body {
   }
 
   h2 {
-    color: #ffc85e;
+    color: #fff;
     text-align: center;
     text-decoration: none;
     font-size: 2em;
@@ -306,21 +306,21 @@ body {
   }
 
   h3 {
-    color: #ffc85e;
+    color: #fff;
     text-align: center;
     text-decoration: none;
     font-size: 1.25em;
   }
 
   h6 {
-    color: #ffc85e;
+    color: #fff;
     text-align: center;
     text-decoration: none;
     font-size: 0.5em;
   }
 
   p {
-    color: #ffc85e;
+    color: #fff;
     text-align: center;
     text-decoration: none;
     font-size: 0.75em;
@@ -335,7 +335,7 @@ body {
   a {
     display: flex;
     justify-content: center;
-    color: #ffc85e;
+    color: #fff;
     font-size: 1em;
     list-style: none;
     text-decoration: none;
