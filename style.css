@@ -419,7 +419,11 @@ body {
   }
 
   #propiedades {
-    margin: 100px;
+    margin: 50px;
+  }
+
+  #propiedades h2 {
+    margin: 50px;
   }
 
   #propiedades .contenedor {
