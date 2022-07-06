@@ -448,7 +448,7 @@ body {
     background-color: #555;
     margin: 15px;
     border-radius: 8px;
-    transition: 500ms ease-in-out;
+    transition: all 500ms;
   }
 
   #propiedades .cards .card:hover {
