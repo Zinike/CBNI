@@ -476,6 +476,14 @@ body {
     object-fit: cover;
   }
 
+  #propiedades .contenedor .cards .card .front p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45%;
+    text-align: center;
+  }
+
   #propiedades .contenedor .cards .card .back {
     transform: perspective(400px) rotateY(180deg);
   }
