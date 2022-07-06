@@ -71,10 +71,10 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
         <div class="swiper-pagination"></div>
 
         <h3>Venta</h3>
-        <form class="cards">
+        <form class="swiper-wrapper cards">
             <?php $resultado = mysqli_query($conn, $venta);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
-            <div class="card">
+            <div class="swiper-slide card">
               <div class="foto"><img src="<?php echo $row['FOTOS'];?>" alt="imagen"></div>
               <div class="nombre"><p><?php echo $row['TIPO'];?></p></div>
               <div class="descripcion"><p><?php echo $row['DESCRIPCION'];?></p></div>
