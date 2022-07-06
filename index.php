@@ -55,7 +55,7 @@ $alquiler = "SELECT * FROM alquiler";
             <?php $resultado = mysqli_query($conn, $venta);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
             <div class="item">
-              <p><?php echo $row["NOMBRE"];?></p>
+              <p><?php echo $row["NOMBRE(1)"];?></p>
             </div>
             <div class="item">
               <p><?php echo $row["DESCRIPCION"];?></p>
