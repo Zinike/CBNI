@@ -505,6 +505,7 @@ body {
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    border-top: solid 1px #fff;
   }
 
   #propiedades .contenedor .cards .tarjeta:hover .front {
