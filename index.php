@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html lang="es" dir="ltr">
+
 <?php
 $conn = mysqli_connect("localhost","u523579628_marcoszinga","Mfzv1994","u523579628_propiedades");
 if(!$conn){
@@ -7,7 +9,7 @@ if(!$conn){
 $venta = "SELECT * FROM venta";
 $alquiler = "SELECT * FROM alquiler";
 ?>
-<html lang="es" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Marcos Zingaretti">
@@ -56,13 +58,10 @@ $alquiler = "SELECT * FROM alquiler";
           <div class="card">
               <?php
                 $resultado = mysqli_query($conn, $venta);
-
                 while ($row=myslqi_fetch_assoc($resultado)) {?>
-
-                <div class="titulo"> <?php echo $row["NOBMRE"];?> </div>
+                <div class="titulo"> <?php echo $row["NOMBRE"];?> </div>
                 <div class="descripcion"> <?php echo $row["DESCRIPCION"];?> </div>
               <?php } ?>
-
           </div>
         </form>
       </div>
