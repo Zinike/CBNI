@@ -57,14 +57,8 @@ $resultado = mysqli_query($conn, $venta);
       <div class="contenedor">
         <h2>Nuestras Propiedades</h2>
         <form class="cards">
-          <div class="card">Hola?
+          <div class="card">pROBANDO
 
-              <?php
-                while ($row = myslqi_fetch_assoc($resultado)) {?>
-
-                <div class="titulo"> <?php echo nombre;?> </div>
-                <div class="descripcion"> <?php echo descripcion;?> </div>
-              <?php };?>
 
           </div>
         </form>
