@@ -205,7 +205,7 @@ body {
     flex-wrap: wrap;
   }
 
-  #propiedades .contenedor .cards .card {
+  #propiedades .contenedor .cards .tarjeta {
     margin: 25px 0px 25px 0px;
     background-color: #555;
     width: 180px;
@@ -222,7 +222,7 @@ body {
     box-shadow: 12px 12px 16px 16px rgba(#555, 0.5);
   }
 
-  #propiedades .contenedor .cards .card img {
+  #propiedades .contenedor .cards .tarjeta img {
     margin: 2%;
     width: 96%;
     height: 50%;
@@ -447,7 +447,7 @@ body {
     align-items: center;
   }
 
-  #propiedades .contenedor .cards .card {
+  #propiedades .contenedor .cards .tarjeta {
     position: relative;
     overflow: hidden;
     height: 300px;
@@ -458,7 +458,7 @@ body {
     transition: all 500ms;
   }
 
-  #propiedades .contenedor .cards .card .face {
+  #propiedades .contenedor .cards .tarjeta .face {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -468,18 +468,18 @@ body {
     transition: 500ms;
   }
 
-  #propiedades .contenedor .cards .card .face .front {
+  #propiedades .contenedor .cards .tarjeta .face .front {
     transform: perspective(400px) rotateY(0deg);
   }
 
-  #propiedades .contenedor .cards .card .face .front img {
+  #propiedades .contenedor .cards .tarjeta .face .front img {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  #propiedades .contenedor .cards .card .face .front h4 {
+  #propiedades .contenedor .cards .tarjeta .face .front h4 {
     position: relative;
     bottom: 0;
     width: 100%;
@@ -488,11 +488,11 @@ body {
     text-align: center;
   }
 
-  #propiedades .contenedor .cards .card .face .back {
+  #propiedades .contenedor .cards .tarjeta .face .back {
     transform: perspective(400px) rotateY(180deg);
   }
 
-  #propiedades .contenedor .cards .card .face .back p {
+  #propiedades .contenedor .cards .tarjeta .face .back p {
     position: relative;
     width: 100%;
     height: 100%;
