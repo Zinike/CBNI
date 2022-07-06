@@ -18,6 +18,8 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
 
     <title>CB Negocios Inmobiliarios</title>
 
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/favicon.png">
   </head>
@@ -49,14 +51,14 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
     </section>
 
     <section id="propiedades">
-      <div class="contenedor">
+      <div class="swiper mySwiper contenedor">
         <h2>Nuestras Propiedades</h2>
 
         <h3>Alquiler</h3>
-        <form class="cards">
+        <form class="swiper-wrapper cards">
             <?php $resultado = mysqli_query($conn, $alquiler);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
-            <div class="card">
+            <div class="swiper-slide card">
               <div class="foto"><img src="<?php echo $row['FOTO'];?>" alt="imagen"></div>
               <div class="nombre"><p><?php echo $row['TIPO'];?></p></div>
               <div class="descripcion"><p><?php echo $row['DESCRIPCION'];?></p></div>
@@ -77,7 +79,9 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
             <?php }?>
             <?php mysqli_free_result($resultado);?>
         </form>
-
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
 
       </div>
     </section>
@@ -124,5 +128,26 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` DESC";
     </footer>
 
     <script src="script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
