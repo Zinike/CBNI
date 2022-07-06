@@ -440,8 +440,8 @@ body {
   }
 
   #propiedades .contenedor .cards {
-    display: grid;
-    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   #propiedades .contenedor .cards .card {
