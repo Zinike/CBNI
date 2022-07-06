@@ -455,7 +455,6 @@ body {
   }
 
   #propiedades .contenedor .cards .card img {
-    position: relative;
     object-fit: cover;
     object-position: center;
     border-radius: 8px;
