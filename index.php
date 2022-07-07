@@ -114,7 +114,7 @@
 
           <div class="redes">
             <div class="instagram">
-              <button type="button" name="button">
+              <button class="button" type="button" name="button">
               <a href="https://www.instagram.com/cbnegociosinmobiliarios/" target="_blank">
                 <img class="iconinstagram" src="images/instagram.png" alt="intagram" height="20px">
                 CBnegociosinmobiliarios
