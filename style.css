@@ -468,18 +468,18 @@ body {
     transition: 500ms;
   }
 
-  #propiedades .contenedor .cards .tarjeta .face .front {
+  #propiedades .contenedor .cards .tarjeta .front {
     transform: perspective(400px) rotateY(0deg);
   }
 
-  #propiedades .contenedor .cards .tarjeta .face .front img {
-    position: absolute;
+  #propiedades .contenedor .cards .tarjeta .front img {
+    position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  #propiedades .contenedor .cards .tarjeta .face .front h4 {
+  #propiedades .contenedor .cards .tarjeta .front h4 {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -488,16 +488,16 @@ body {
     text-align: center;
   }
 
-  #propiedades .contenedor .cards .tarjeta .face .back {
+  #propiedades .contenedor .cards .tarjeta .back {
     transform: perspective(400px) rotateY(180deg);
     background: rgba(#000, .4);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
   }
 
-  #propiedades .contenedor .cards .tarjeta .face .back p {
+  #propiedades .contenedor .cards .tarjeta .back p {
     position: relative;
     width: 100%;
     height: 100%;
@@ -509,11 +509,11 @@ body {
     height: 50px;
   }
 
-  #propiedades .contenedor .cards .tarjeta:hover .face .front {
+  #propiedades .contenedor .cards .tarjeta:hover .front {
     transform: perspective(400px) rotateY(180deg);
   }
 
-  #propiedades .contenedor .cards .tarjeta:hover .face .back {
+  #propiedades .contenedor .cards .tarjeta:hover .back {
     transform: perspective(400px) rotateY(360deg);
   }
 
