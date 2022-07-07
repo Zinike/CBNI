@@ -119,13 +119,13 @@
             <div class="whatsapp">
               <div class="Yuli">
                 <a href="https://walink.co/7fee7b" target="_blank">
-                  <img class="iconwhatsapp" src="images/whatsapp2.png" alt="whatsapp" height="20px">
+                  <img class="iconwhatsapp" src="images/whatsapp.png" alt="whatsapp" height="20px">
                   Bottos Yuliana
                 </a>
               </div>
               <div class="Malcom">
                 <a href="https://walink.co/b52d86" target="_blank">
-                  <img class="iconwhatsapp" src="images/whatsapp2.png" alt="whatsapp" height="20px">
+                  <img class="iconwhatsapp" src="images/whatsapp.png" alt="whatsapp" height="20px">
                   Campbell Malcom
                 </a>
               </div>
