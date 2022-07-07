@@ -484,7 +484,7 @@ body {
     bottom: 0;
     width: 100%;
     height: 45%;
-    background: rgba(#000, .9);
+    background-color: rgba(#000, .9);
     text-align: center;
   }
 
