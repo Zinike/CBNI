@@ -35,6 +35,15 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
           <button type="button" name="button_busqueda">Buscar</button>
 
 
+          <div class="filtro">
+            <p>Filtros</p>
+          </div>
+
+
+
+
+
+
 
 
 
