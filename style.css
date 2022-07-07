@@ -624,6 +624,7 @@ body {
 
   #contacto .contenedor ul .redes .whatsapp {
     padding: 3px 0 3px 0;
+    align-items: center;
   }
 
   .button {
