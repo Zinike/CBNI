@@ -432,7 +432,8 @@ body {
     padding: 10px;
   }
 
-  #propiedades h2, h3 {
+  #propiedades h2,
+  #propiedades h3 {
     margin: 50px;
   }
 
