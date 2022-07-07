@@ -623,6 +623,7 @@ body {
   }
 
   .button {
+    margin: 5px;
     padding: 5px;
     background-color: #444;
   }
