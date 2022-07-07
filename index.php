@@ -93,16 +93,20 @@
 
           <div class="telefono">
             <div class="Yuli">
+              <button class="button" type="button" name="button">
               <a href="tel:5493584407187" target="_blank">
                 <img class="icontelefono" src="images/telefono.png" alt="telefono" height="20px">
                 Bottos Yuliana
               </a>
+              </button>
             </div>
             <div class="Malcom">
+              <button class="button" type="button" name="button">
               <a href="tel:5493584418027" target="_blank">
                 <img class="icontelefono" src="images/telefono.png" alt="telefono" height="20px">
                 Campbell Malcom
               </a>
+              </button>
             </div>
           </div>
 
@@ -120,7 +124,7 @@
 
             <div class="whatsapp">
               <div class="Yuli">
-                <button type="button" name="button">
+                <button class="button" type="button" name="button">
                 <a href="https://walink.co/7fee7b" target="_blank">
                   <img class="iconwhatsapp" src="images/whatsapp.png" alt="whatsapp" height="20px">
                   Bottos Yuliana
@@ -128,7 +132,7 @@
                 </button>
               </div>
               <div class="Malcom">
-                <button type="button" name="button">
+                <button class="button" type="button" name="button">
                 <a href="https://walink.co/b52d86" target="_blank">
                   <img class="iconwhatsapp" src="images/whatsapp.png" alt="whatsapp" height="20px">
                   Campbell Malcom
@@ -139,7 +143,10 @@
           </div>
 
           <div class="email">
-            <a href="mailto: contacto@cbnegociosinmobiliarios.com" target="_blank">E-Mail</a>
+            <button class="button" type="button" name="button"></button>
+            <a href="mailto: contacto@cbnegociosinmobiliarios.com" target="_blank">
+              E-Mail
+            </a>
           </div>
 
         </ul>
