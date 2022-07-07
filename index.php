@@ -31,8 +31,26 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
 
         <form class="buscador" method="post">
 
-          <input type="text" action="index.php" name="buscador" value="¿Qué vas a buscar hoy?">
+          <input type="text" action="index.php" name="buscador" value="<?php echo $_POST['buscar'] ?>">
           <button type="button" name="button_busqueda">Buscar</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
