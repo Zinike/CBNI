@@ -551,7 +551,7 @@ body {
   #contacto .contenedor ul .telefono {
     display: flex;
     flex-direction: column;
-    padding: 10px 0 15px 0;
+    padding: 10px 0;
   }
 
   #contacto .contenedor ul .telefono .Yuli {
@@ -569,7 +569,7 @@ body {
   #contacto .contenedor ul .redes {
     display: flex;
     flex-direction: column;
-    padding: 10px 0 15px 0;
+    padding: 10px 0;
   }
 
   #contacto .contenedor ul .redes .instagram {
