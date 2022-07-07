@@ -124,10 +124,12 @@
                 </a>
               </div>
               <div class="Malcom">
+                <button type="button" name="button">
                 <a href="https://walink.co/b52d86" target="_blank">
                   <img class="iconwhatsapp" src="images/whatsapp.png" alt="whatsapp" height="20px">
                   Campbell Malcom
                 </a>
+                </button>
               </div>
             </div>
           </div>
