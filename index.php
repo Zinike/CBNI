@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 
-<?php
-$conn = mysqli_connect("localhost","u523579628_marcoszinga","Mfzv1994","u523579628_propiedades");
-if(!$conn){
-  echo "Connection error: " . mysqli_connect_error();
-}
-
-$venta = "SELECT * FROM `venta` ORDER BY `venta`.`FOTOS` ASC";
-$alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
-?>
+  <?php include("conexion.php"); ?>
 
   <head>
     <meta charset="utf-8">
@@ -29,50 +21,63 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
         <img class="logo" src="images/logo.png" alt="logo">
         <img id="menu_icon" class="menu_icon" src="images/menu.png" alt="menu_icon" height="30px">
 
-        <form class="buscador" method="post">
-
-          <input type="text" action="index.php" name="buscador" value="<?php echo $_POST['buscar'] ?>">
-          <button type="button" name="button_busqueda">Buscar</button>
 
 
-          <div class="filtro">
-            <p>Filtros</p>
+
+
+        <form id="form2" name="form2" method="POST" action="index.php">
+          <div class="col-12 row">
+            <div class="col-11">
+              <label class="form-label">Nombre a buscar</label>
+              <input type="text" class="form-control" id="buscar" name="buscar" value="<?php echo $_POST["buscar"] ?>">
+            </div>
+            <div class="col-1">
+              <input type="submit" class="btn btn-success" value="Ver" style="margin-top: 30px;">
+            </div>
           </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          <?php
+                $sql=mysql_query("SELECT * FROM datos WHERE nombre LIKE '%".$_POST["buscar"]."%' OR departamento LIKE '%".$_POST["buscar"]."%' OR color LIKE '%".$_POST["buscar"]."%'    ");
+                $numeroSql = mysql_num_rows($sql);
+                ?>
+          <p style="font-weight: bold; color:green;">
+            <i class="mdi mdi-file-document"></i>
+            <?php echo $numeroSql; ?>
+            Resultados encontrados</p>
         </form>
+
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr style="background-color: #00695c; color:#FFFFFF;">
+                <th style=" text-align: center;">
+                  Nombre
+                </th>
+                <th style=" text-align: center;">
+                  Departamento
+                </th>
+                <th style=" text-align: center;">
+                  Color
+                </th>
+                <th style=" text-align: center;">
+                  Fecha
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php while ($rowSql = mysql_fetch_assoc($sql)){ ?>
+
+              <tr>
+                <td style="text-align: center;"><?php echo $rowSql["nombre"]; ?></td>
+                <td style="text-align: center;"><?php echo $rowSql["departamento"]; ?></td>
+                <td style="text-align: center;"><?php echo $rowSql["color"]; ?></td>
+                <td style=" text-align: center;"><?php echo $rowSql["fecha"]; ?></td>
+              </tr>
+
+              <?php } ?>
+            </tbody>
+          </table>
+        </div>
 
 
         <nav class="menu">
@@ -102,40 +107,40 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
       <h3>Alquiler</h3>
       <div class="contenedor">
         <form class="card">
-            <?php $resultado = mysqli_query($conn, $alquiler);
+          <?php $resultado = mysqli_query($conn, $alquiler);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
-            <div class="tarjeta">
-              <div class="face front">
-                <img src="<?php echo $row['FOTO'];?>" alt="imagen">
-                <h4><?php echo $row['TIPO'];?></h4>
-              </div>
-              <div class="face back">
-                <h4><?php echo $row['TIPO'];?></h4>
-                <p><?php echo $row['DESCRIPCION'];?></p>
-              </div>
+          <div class="tarjeta">
+            <div class="face front">
+              <img src="<?php echo $row['FOTO'];?>" alt="imagen">
+              <h4><?php echo $row['TIPO'];?></h4>
             </div>
-            <?php }?>
-            <?php mysqli_free_result($resultado);?>
+            <div class="face back">
+              <h4><?php echo $row['TIPO'];?></h4>
+              <p><?php echo $row['DESCRIPCION'];?></p>
+            </div>
+          </div>
+          <?php }?>
+          <?php mysqli_free_result($resultado);?>
         </form>
       </div>
 
       <h3>Venta</h3>
       <div class="contenedor">
         <form class="card">
-            <?php $resultado = mysqli_query($conn, $venta);
+          <?php $resultado = mysqli_query($conn, $venta);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
-            <div class="tarjeta">
-              <div class="face front">
-                <img src="<?php echo $row['FOTOS'];?>" alt="imagen">
-                <h4><?php echo $row['TIPO'];?></h4>
-              </div>
-              <div class="face back">
-                <h4><?php echo $row['TIPO'];?></h4>
-                <p><?php echo $row['DESCRIPCION'];?></p>
-              </div>
+          <div class="tarjeta">
+            <div class="face front">
+              <img src="<?php echo $row['FOTOS'];?>" alt="imagen">
+              <h4><?php echo $row['TIPO'];?></h4>
             </div>
-            <?php }?>
-            <?php mysqli_free_result($resultado);?>
+            <div class="face back">
+              <h4><?php echo $row['TIPO'];?></h4>
+              <p><?php echo $row['DESCRIPCION'];?></p>
+            </div>
+          </div>
+          <?php }?>
+          <?php mysqli_free_result($resultado);?>
         </form>
       </div>
     </section>
