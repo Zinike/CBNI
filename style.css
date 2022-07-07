@@ -499,7 +499,7 @@ body {
 
   #propiedades .contenedor .card .tarjeta .back h4 {
     width: 100%;
-    height: auto;
+    margin: 10px;
     background: rgba(#000, .4);
     text-align: center;
   }
