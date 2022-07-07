@@ -132,6 +132,10 @@
             </div>
           </div>
 
+          <div class="email">
+            <a href="mailto: contacto@cbnegociosinmobiliarios.com">E-Mail</a>            
+          </div>
+
         </ul>
       </div>
     </section>
