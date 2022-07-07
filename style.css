@@ -633,6 +633,7 @@ body {
     background-color: #444;
     border-radius: 5px;
     transition: all 500ms;
+    cursor: pointer;
   }
 
   .button:hover {

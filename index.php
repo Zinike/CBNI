@@ -93,20 +93,21 @@
 
           <div class="telefono">
             <div class="Yuli">
-              <button class="button" type="button" name="button">
               <a href="tel:5493584407187" target="_blank">
+                <button class="button" type="button" name="button">
                 <img class="icontelefono" src="images/telefono.png" alt="telefono" height="20px">
                 Bottos Yuliana
+                </button>
               </a>
-              </button>
             </div>
+
             <div class="Malcom">
-              <button class="button" type="button" name="button">
               <a href="tel:5493584418027" target="_blank">
+                <button class="button" type="button" name="button">
                 <img class="icontelefono" src="images/telefono.png" alt="telefono" height="20px">
                 Campbell Malcom
+                </button>
               </a>
-              </button>
             </div>
           </div>
 
@@ -114,12 +115,12 @@
 
           <div class="redes">
             <div class="instagram">
-              <button class="button" type="button" name="button">
               <a href="https://www.instagram.com/cbnegociosinmobiliarios/" target="_blank">
+                <button class="button" type="button" name="button">
                 <img class="iconinstagram" src="images/instagram.png" alt="intagram" height="20px">
                 CBnegociosinmobiliarios
+                </button>
               </a>
-              </button>
             </div>
 
             <div class="whatsapp">
@@ -131,6 +132,7 @@
                 </button>
                 </a>
               </div>
+
               <div class="Malcom">
                 <a href="https://walink.co/b52d86" target="_blank">
                   <button class="button" type="button" name="button">
@@ -148,9 +150,7 @@
               E-Mail
               </button>
             </a>
-
           </div>
-
         </ul>
       </div>
     </section>
