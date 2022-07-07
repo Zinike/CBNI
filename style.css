@@ -622,6 +622,14 @@ body {
     padding: 3px 0 3px 0;
   }
 
+  .button {
+    background-color: #444;
+  }
+
+  .button:hover {
+    background-color: #777;
+  }
+
   footer {
     padding: 10px 0 10px 0;
     background-color: #000;

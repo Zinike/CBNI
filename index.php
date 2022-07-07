@@ -110,18 +110,22 @@
 
           <div class="redes">
             <div class="instagram">
+              <button type="button" name="button">
               <a href="https://www.instagram.com/cbnegociosinmobiliarios/" target="_blank">
                 <img class="iconinstagram" src="images/instagram.png" alt="intagram" height="20px">
                 CBnegociosinmobiliarios
               </a>
+              </button>
             </div>
 
             <div class="whatsapp">
               <div class="Yuli">
+                <button type="button" name="button">
                 <a href="https://walink.co/7fee7b" target="_blank">
                   <img class="iconwhatsapp" src="images/whatsapp.png" alt="whatsapp" height="20px">
                   Bottos Yuliana
                 </a>
+                </button>
               </div>
               <div class="Malcom">
                 <button type="button" name="button">
