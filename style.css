@@ -493,7 +493,16 @@ body {
     background: rgba(#000, .4);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #propiedades .contenedor .card .tarjeta .back h4 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45%;
+    background: rgba(#000, .4);
     text-align: center;
   }
 
