@@ -149,7 +149,7 @@ body {
   }
 
   #hero {
-    height: auto;
+    height: 100vh;
   }
 
   #nosotros {
