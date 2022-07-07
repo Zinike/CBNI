@@ -142,11 +142,11 @@ body {
   }
 
   #hero {
-    height: 50vh;
+    height: 100vh;
   }
 
   #hero video {
-    height: 100%;
+    height: 50%;
     width: 100%;
     object-fit: cover;
     object-position: center;
