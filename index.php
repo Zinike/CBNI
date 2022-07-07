@@ -32,7 +32,7 @@
     </header>
 
     <section id="hero">
-      <video src="images/realstate.webm" muted autoplay loop style="position:absolute; top:0"></video>
+      <video src="images/realstate.webm" muted autoplay loop></video>
     </section>
 
     <section id="nosotros">
