@@ -599,18 +599,6 @@ body {
     padding: 10px 0;
   }
 
-  #contacto .contenedor ul .telefono .Yuli {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  #contacto .contenedor ul .telefono .Malcom {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
   #contacto .contenedor ul .redes {
     display: flex;
     flex-direction: column;
