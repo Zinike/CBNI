@@ -149,21 +149,7 @@ body {
   }
 
   #hero {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-image: url(images/fondo_banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center +9vh;
-    max-height: 350px;
-    max-width: 720px;
-  }
-
-  #hero img {
-    margin: 50% 80% 50% 20%;
-    max-height: 150px;
-    max-width: 150px;
+    height: auto;
   }
 
   #nosotros {
