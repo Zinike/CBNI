@@ -588,6 +588,7 @@ body {
   #contacto .contenedor ul {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   #contacto .contenedor ul .telefono {
