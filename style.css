@@ -631,6 +631,7 @@ body {
     margin: 5px;
     padding: 5px;
     background-color: #444;
+    border-radius: 5px;
   }
 
   .button:hover {
