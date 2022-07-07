@@ -29,7 +29,7 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
         <img id="menu_icon" class="menu_icon" src="images/menu.png" alt="menu_icon" height="30px">
         <nav class="menu">
           <ul>
-            <a href="#nosotros">Nosotros</a>
+            <a href=" #nosotros">Nosotros</a>
             <a href="#propiedades">Propiedades</a>
             <a href="#contacto">Contacto</a>
           </ul>
