@@ -333,6 +333,13 @@ body {
     font-size: 0.75em;
   }
 
+  q {
+    color: #ffc85e;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.75em;
+  }
+
   ul {
     display: flex;
     flex-direction: row;
