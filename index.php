@@ -53,7 +53,7 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
 
       <h3>Alquiler</h3>
       <div class="contenedor">
-        <form class="cards">
+        <form class="card">
             <?php $resultado = mysqli_query($conn, $alquiler);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
             <div class="tarjeta">
@@ -73,7 +73,7 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
 
       <h3>Venta</h3>
       <div class="contenedor">
-        <form class="cards">
+        <form class="card">
             <?php $resultado = mysqli_query($conn, $venta);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
             <div class="tarjeta">

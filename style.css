@@ -200,12 +200,12 @@ body {
     align-items: center;
   }
 
-  #propiedades .contenedor .cards {
+  #propiedades .contenedor .card {
     display: flex;
     flex-wrap: wrap;
   }
 
-  #propiedades .contenedor .cards .tarjeta {
+  #propiedades .contenedor .card .tarjeta {
     margin: 25px 0px 25px 0px;
     background-color: #555;
     width: 180px;
@@ -217,12 +217,12 @@ body {
     margin: 50px 15px;
   }
 
-  #propiedades .contenedor .cards .card:hover {
+  #propiedades .contenedor .card .card:hover {
     transform: scale(1.1);
     box-shadow: 12px 12px 16px 16px rgba(#555, 0.5);
   }
 
-  #propiedades .contenedor .cards .tarjeta img {
+  #propiedades .contenedor .card .tarjeta img {
     margin: 2%;
     width: 96%;
     height: 50%;
@@ -438,7 +438,7 @@ body {
     align-items: center;
   }
 
-  #propiedades .contenedor .cards {
+  #propiedades .contenedor .card {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -447,7 +447,7 @@ body {
     align-items: center;
   }
 
-  #propiedades .contenedor .cards .tarjeta {
+  #propiedades .contenedor .card .tarjeta {
     position: relative;
     overflow: hidden;
     height: 300px;
@@ -458,7 +458,7 @@ body {
     transition: all 500ms;
   }
 
-  #propiedades .contenedor .cards .tarjeta .face {
+  #propiedades .contenedor .card .tarjeta .face {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -468,18 +468,18 @@ body {
     transition: 500ms;
   }
 
-  #propiedades .contenedor .cards .tarjeta .front {
+  #propiedades .contenedor .card .tarjeta .front {
     transform: perspective(400px) rotateY(0deg);
   }
 
-  #propiedades .contenedor .cards .tarjeta .front img {
+  #propiedades .contenedor .card .tarjeta .front img {
     position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  #propiedades .contenedor .cards .tarjeta .front h4 {
+  #propiedades .contenedor .card .tarjeta .front h4 {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -488,7 +488,7 @@ body {
     text-align: center;
   }
 
-  #propiedades .contenedor .cards .tarjeta .back {
+  #propiedades .contenedor .card .tarjeta .back {
     transform: perspective(400px) rotateY(180deg);
     background: rgba(#000, .4);
     display: flex;
@@ -497,7 +497,7 @@ body {
     text-align: center;
   }
 
-  #propiedades .contenedor .cards .tarjeta .back p {
+  #propiedades .contenedor .card .tarjeta .back p {
     position: relative;
     width: 100%;
     height: 100%;
@@ -509,11 +509,11 @@ body {
     height: 50px;
   }
 
-  #propiedades .contenedor .cards .tarjeta:hover .front {
+  #propiedades .contenedor .card .tarjeta:hover .front {
     transform: perspective(400px) rotateY(180deg);
   }
 
-  #propiedades .contenedor .cards .tarjeta:hover .back {
+  #propiedades .contenedor .card .tarjeta:hover .back {
     transform: perspective(400px) rotateY(360deg);
   }
 
