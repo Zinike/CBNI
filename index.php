@@ -21,65 +21,6 @@
         <img class="logo" src="images/logo.png" alt="logo">
         <img id="menu_icon" class="menu_icon" src="images/menu.png" alt="menu_icon" height="30px">
 
-
-
-
-
-        <form id="form2" name="form2" method="POST" action="index.php">
-          <div class="col-12 row">
-            <div class="col-11">
-              <label class="form-label">Nombre a buscar</label>
-              <input type="text" class="form-control" id="buscar" name="buscar" value="<?php echo $_POST["buscar"] ?>">
-            </div>
-            <div class="col-1">
-              <input type="submit" class="btn btn-success" value="Ver" style="margin-top: 30px;">
-            </div>
-          </div>
-
-          <?php
-                $sql=mysql_query("SELECT * FROM datos WHERE nombre LIKE '%".$_POST["buscar"]."%' OR departamento LIKE '%".$_POST["buscar"]."%' OR color LIKE '%".$_POST["buscar"]."%'    ");
-                $numeroSql = mysql_num_rows($sql);
-                ?>
-          <p style="font-weight: bold; color:green;">
-            <i class="mdi mdi-file-document"></i>
-            <?php echo $numeroSql; ?>
-            Resultados encontrados</p>
-        </form>
-
-        <div class="table-responsive">
-          <table class="table">
-            <thead>
-              <tr style="background-color: #00695c; color:#FFFFFF;">
-                <th style=" text-align: center;">
-                  Nombre
-                </th>
-                <th style=" text-align: center;">
-                  Departamento
-                </th>
-                <th style=" text-align: center;">
-                  Color
-                </th>
-                <th style=" text-align: center;">
-                  Fecha
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <?php while ($rowSql = mysql_fetch_assoc($sql)){ ?>
-
-              <tr>
-                <td style="text-align: center;"><?php echo $rowSql["nombre"]; ?></td>
-                <td style="text-align: center;"><?php echo $rowSql["departamento"]; ?></td>
-                <td style="text-align: center;"><?php echo $rowSql["color"]; ?></td>
-                <td style=" text-align: center;"><?php echo $rowSql["fecha"]; ?></td>
-              </tr>
-
-              <?php } ?>
-            </tbody>
-          </table>
-        </div>
-
-
         <nav class="menu">
           <ul>
             <a href=" #nosotros">Nosotros</a>
