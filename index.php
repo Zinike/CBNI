@@ -31,7 +31,7 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
         <form class="buscador" method="post">
 
           <input type="text" name="buscador" value="¿Qué vas a buscar hoy?">
-
+          <button type="button" name="button_busqueda">Buscar</button>
         </form>
 
 
