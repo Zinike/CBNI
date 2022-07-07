@@ -145,6 +145,11 @@ body {
     height: 50vh;
   }
 
+  #hero video {
+    object-fit: cover;
+    object-position: center;
+  }
+
   #nosotros {
     height: 60vh;
     width: auto;
