@@ -93,10 +93,16 @@
 
           <div class="telefono">
             <div class="Yuli">
-              <a href="tel:5493584407187" target="_blank"><img class="icontelefono" src="images/telefono.png" alt="telefono" height="20px">Bottos Yuliana</a>
+              <a href="tel:5493584407187" target="_blank">
+                <img class="icontelefono" src="images/telefono.png" alt="telefono" height="20px">
+                Bottos Yuliana
+              </a>
             </div>
             <div class="Malcom">
-              <a href="tel:5493584418027" target="_blank"><img class="icontelefono" src="images/telefono.png" alt="telefono" height="20px">Campbell Malcom</a>
+              <a href="tel:5493584418027" target="_blank">
+                <img class="icontelefono" src="images/telefono.png" alt="telefono" height="20px">
+                Campbell Malcom
+              </a>
             </div>
           </div>
 
@@ -104,15 +110,24 @@
 
           <div class="redes">
             <div class="instagram">
-              <a href="https://www.instagram.com/cbnegociosinmobiliarios/" target="_blank"><img class="iconinstagram" src="images/instagram.png" alt="intagram" height="20px">CBnegociosinmobiliarios</a>
+              <a href="https://www.instagram.com/cbnegociosinmobiliarios/" target="_blank">
+                <img class="iconinstagram" src="images/instagram.png" alt="intagram" height="20px">
+                CBnegociosinmobiliarios
+              </a>
             </div>
 
             <div class="whatsapp">
               <div class="Yuli">
-                <a href="https://walink.co/7fee7b" target="_blank"><img class="iconwhatsapp" src="images/whatsapp.png" alt="whatsapp" height="20px">Yuliana</a>
+                <a href="https://walink.co/7fee7b" target="_blank">
+                  <img class="iconwhatsapp" src="images/whatsapp.png" alt="whatsapp" height="20px">
+                  Bottos Yuliana
+                </a>
               </div>
               <div class="Malcom">
-                <a href="https://walink.co/b52d86" target="_blank"><img class="iconwhatsapp" src="images/whatsapp2.png" alt="whatsapp" height="20px">Malcom</a>
+                <a href="https://walink.co/b52d86" target="_blank">
+                  <img class="iconwhatsapp" src="images/whatsapp2.png" alt="whatsapp" height="20px">
+                  Campbell Malcom
+                </a>
               </div>
             </div>
           </div>
