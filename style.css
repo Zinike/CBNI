@@ -146,6 +146,7 @@ body {
   }
 
   #hero video {
+    width: 100%;
     object-fit: cover;
     object-position: center;
     position: absolute;
