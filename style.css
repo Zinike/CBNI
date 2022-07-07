@@ -52,7 +52,7 @@ body {
     font-size: .75em;
   }
 
-  p {
+  p, q {
     color: #ffc85e;
     text-align: center;
     text-decoration: none;
@@ -161,10 +161,6 @@ body {
   }
 
   #nosotros h2 {
-    padding: 10px;
-  }
-
-  #nosotros h3 {
     padding: 10px;
   }
 
