@@ -484,8 +484,8 @@ body {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(#000, .5);
     text-align: center;
+    background: rgba(0, 0, 0, .5);
   }
 
   #propiedades .contenedor .card .tarjeta .back {
@@ -500,8 +500,8 @@ body {
   #propiedades .contenedor .card .tarjeta .back h4 {
     width: 100%;
     margin: 10px 0;
-    background: rgba(#000, .4);
     text-align: center;
+    background: rgba(#000, .4);
   }
 
   #propiedades .contenedor .card .tarjeta .back p {
