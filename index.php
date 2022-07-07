@@ -14,6 +14,7 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Marcos Zingaretti">
+    <meta name="description" content="CB Negocios Inmobiliarios">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
     <title>CB Negocios Inmobiliarios</title>
@@ -32,6 +33,18 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
 
           <input type="text" name="buscador" value="¿Qué vas a buscar hoy?">
           <button type="button" name="button_busqueda">Buscar</button>
+
+
+
+
+
+
+
+
+
+
+
+
         </form>
 
 
