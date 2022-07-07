@@ -32,7 +32,7 @@
     </header>
 
     <section id="hero">
-      <video src="images/realstate.mp4" poster="default.jpg" muted autoplay loop z-index="1"></video>
+      <video src="images/realstate.mp4" poster="default.jpg" muted autoplay loop width="100%" height="100%"></video>
       <div class="hero">
         <img class="logo2" src="images/logo2.png" alt="logo">
       </div>
