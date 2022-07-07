@@ -480,7 +480,7 @@ body {
   }
 
   #propiedades .contenedor .card .tarjeta .front h4 {
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
     height: 100%;
@@ -490,7 +490,7 @@ body {
 
   #propiedades .contenedor .card .tarjeta .back {
     transform: perspective(400px) rotateY(180deg);
-    background: rgba(#000, .4);
+    background: #444;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
