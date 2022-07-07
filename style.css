@@ -142,8 +142,7 @@ body {
   }
 
   #hero {
-    width: 100vw;
-    height: auto;
+    height: 50vh;
   }
 
   #nosotros {
