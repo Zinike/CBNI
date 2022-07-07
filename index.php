@@ -119,7 +119,7 @@
             <div class="whatsapp">
               <div class="Yuli">
                 <a href="https://walink.co/7fee7b" target="_blank">
-                  <img class="iconwhatsapp" src="images/whatsapp.png" alt="whatsapp" height="20px">
+                  <img class="iconwhatsapp" src="images/whatsapp2.png" alt="whatsapp" height="20px">
                   Bottos Yuliana
                 </a>
               </div>
@@ -133,7 +133,7 @@
           </div>
 
           <div class="email">
-            <a href="mailto: contacto@cbnegociosinmobiliarios.com">E-Mail</a>            
+            <a href="mailto: contacto@cbnegociosinmobiliarios.com">E-Mail</a>
           </div>
 
         </ul>
