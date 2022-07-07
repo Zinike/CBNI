@@ -132,12 +132,14 @@
                 </button>
               </div>
               <div class="Malcom">
-                <button class="button" type="button" name="button">
+
                 <a href="https://walink.co/b52d86" target="_blank">
+                  <button class="button" type="button" name="button">
                   <img class="iconwhatsapp" src="images/whatsapp.png" alt="whatsapp" height="20px">
                   Campbell Malcom
+                  </button>
                 </a>
-                </button>
+
               </div>
             </div>
           </div>
