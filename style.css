@@ -81,13 +81,6 @@ body {
     color: #FF00FF;
   }
 
-  video {
-    position: fixed;
-    z-index: -1000;
-    width: auto;
-    height: 100vh;
-  }
-
   header {
     position: fixed;
     z-index: 100;
@@ -149,7 +142,7 @@ body {
   }
 
   #hero {
-    height: 100vh;
+    width: 100vw;
   }
 
   #nosotros {
