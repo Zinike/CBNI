@@ -507,6 +507,7 @@ body {
   #propiedades .contenedor .card .tarjeta .back p {
     width: 100%;
     height: 100%;
+    margin-top: 5px;
     flex-direction: column;
     align-content: center;
     justify-content: center;
