@@ -403,17 +403,14 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    background-image: url(images/fondo_banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 70vh;
     width: 100vw;
   }
 
   #hero img {
-    margin: 100px;
     height: 300px;
     width: 300px;
+    position: relative;
   }
 
   #nosotros {
