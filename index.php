@@ -28,11 +28,11 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
         <img class="logo" src="images/logo.png" alt="logo">
         <img id="menu_icon" class="menu_icon" src="images/menu.png" alt="menu_icon" height="30px">
 
-        <div class="buscador">
+        <form class="buscador" method="post">
 
-          <input type="text" name="Buscador" value="Escribe algo">
+          <input type="text" name="buscador" value="¿Qué vas a buscar hoy?">
 
-        </div>
+        </form>
 
 
         <nav class="menu">
