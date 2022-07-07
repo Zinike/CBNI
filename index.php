@@ -124,12 +124,12 @@
 
             <div class="whatsapp">
               <div class="Yuli">
-                <button class="button" type="button" name="button">
                 <a href="https://walink.co/7fee7b" target="_blank">
+                  <button class="button" type="button" name="button">
                   <img class="iconwhatsapp" src="images/whatsapp.png" alt="whatsapp" height="20px">
                   Bottos Yuliana
-                </a>
                 </button>
+                </a>
               </div>
               <div class="Malcom">
                 <a href="https://walink.co/b52d86" target="_blank">
