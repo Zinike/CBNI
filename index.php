@@ -32,10 +32,7 @@
     </header>
 
     <section id="hero">
-      <video src="images/realstate.mp4" poster="default.jpg" muted autoplay loop ></video>
-      <div class="hero">
-        <img class="logo2" src="images/logo2.png" alt="logo">
-      </div>
+      <video src="images/realstate.webm" poster="default.jpg" muted autoplay loop ></video>
     </section>
 
     <section id="nosotros">
