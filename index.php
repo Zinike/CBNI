@@ -45,7 +45,7 @@ $alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`FOTO` ASC";
 
     <section id="nosotros">
       <h2>Sobre Nosotros</h2>
-      <h3>Somos una pequeña inmobiliaria brindando lo mejor de nosotros para que te sientas parte de nuestra familia.</h3>
+      <q cite="">Somos una pequeña inmobiliaria brindando lo mejor de nosotros para que te sientas parte de nuestra familia.</q>
     </section>
 
     <section id="propiedades">
