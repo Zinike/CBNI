@@ -432,9 +432,13 @@ body {
     padding: 10px;
   }
 
-  #propiedades h2,
+  #propiedades h2 {
+    margin-bottom: 50px;
+  }
+
   #propiedades h3 {
-    margin: 50px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
   }
 
   #propiedades .contenedor {
