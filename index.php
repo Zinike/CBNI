@@ -132,24 +132,23 @@
                 </button>
               </div>
               <div class="Malcom">
-
                 <a href="https://walink.co/b52d86" target="_blank">
                   <button class="button" type="button" name="button">
                   <img class="iconwhatsapp" src="images/whatsapp.png" alt="whatsapp" height="20px">
                   Campbell Malcom
                   </button>
                 </a>
-
               </div>
             </div>
           </div>
 
           <div class="email">
-            <button class="button" type="button" name="button">
             <a href="mailto: contacto@cbnegociosinmobiliarios.com" target="_blank">
+              <button class="button" type="button" name="button">
               E-Mail
+              </button>
             </a>
-            </button>
+
           </div>
 
         </ul>
