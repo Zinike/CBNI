@@ -411,6 +411,7 @@ body {
     height: 300px;
     width: 300px;
     position: relative;
+    z-index: 1000;
   }
 
   #nosotros {
