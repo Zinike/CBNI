@@ -143,10 +143,11 @@
           </div>
 
           <div class="email">
-            <button class="button" type="button" name="button"></button>
+            <button class="button" type="button" name="button">
             <a href="mailto: contacto@cbnegociosinmobiliarios.com" target="_blank">
               E-Mail
             </a>
+            </button>
           </div>
 
         </ul>
