@@ -30,7 +30,7 @@
         </nav>
       </div>
     </header>
-
+<div class="preloader"></div>
     <section id="hero">
       <video src="images/realstate.webm" muted autoplay loop></video>
     </section>
@@ -155,8 +155,6 @@
         </ul>
       </div>
     </section>
-
-    <div class="loader"></div>
 
     <footer>
       <p>Todos los derechos reservados &#169</p>
