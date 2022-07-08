@@ -466,6 +466,10 @@ body {
     padding: 0 0 25px 0;
   }
 
+  #propiedades .back {
+    color: #000;
+  }
+
   #propiedades h2 {
     margin-bottom: 50px;
   }
