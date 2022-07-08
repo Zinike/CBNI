@@ -547,6 +547,10 @@ body {
     text-align: center;
   }
 
+  #propiedades .contenedor .card .tarjeta .back img {
+    filter: blur(.1);
+  }
+
   #propiedades .contenedor .card .tarjeta .back h4 {
     width: 100%;
     margin: 10px 0;
@@ -573,7 +577,6 @@ body {
 
   #propiedades .contenedor .card .tarjeta:active {
     transform: scale(2);
-    background-image: url(.foto);
     z-index: 1000;
   }
 
