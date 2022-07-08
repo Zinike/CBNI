@@ -584,17 +584,17 @@ body {
     margin-bottom: 10%;
   }
 
+  #propiedades .contenedor .card .tarjeta:hover {
+    transform: scale(1.75);
+    z-index: 1000;
+  }
+
   #propiedades .contenedor .card .tarjeta:hover .front {
     transform: perspective(400px) rotateY(180deg);
   }
 
   #propiedades .contenedor .card .tarjeta:hover .back {
     transform: perspective(400px) rotateY(360deg);
-  }
-
-  #propiedades .contenedor .card .tarjeta:hover {
-    transform: scale(1.75);
-    z-index: 1000;
   }
 
   #contacto {
