@@ -61,7 +61,7 @@
               <img src="<?php echo $row['FOTO'];?>" alt="imagen">
               <h4><?php echo $row['TIPO'];?> EN <?php echo $row['LOCALIDAD'];?></h4>
               <p><?php echo $row['DESCRIPCION'];?></p>
-              <h3><?php echo $row['PRECIO'];?></h4>
+              <h3><?php echo $row['PRECIO'];?></h3>
             </div>
           </div>
           <?php }?>
@@ -83,7 +83,7 @@
               <img src="<?php echo $row['FOTOS'];?>" alt="imagen">
               <h4><?php echo $row['TIPO'];?> EN <?php echo $row['LOCALIDAD'];?></h4>
               <p><?php echo $row['DESCRIPCION'];?></p>
-              <h4><?php echo $row['PRECIO'];?></h4>
+              <h3><?php echo $row['PRECIO'];?></h3>
             </div>
           </div>
           <?php }?>
