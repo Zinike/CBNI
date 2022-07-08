@@ -114,17 +114,9 @@
 
           <h3>Nuestras Redes</h3>
 
-          <iframe width="320" height="40" src="https://www.instagram.com/p/CfxDD8RPeCy/embed" frameborder="0"></iframe>
-
           <div class="redes">
             <div class="instagram">
-              <a href="https://www.instagram.com/cbnegociosinmobiliarios/" target="_blank">
-                <button class="button" type="button" name="button">
-                <img class="iconinstagram" src="images/instagram.png" alt="intagram" height="20px">
-                CBnegociosinmobiliarios
-                </button>
-              </a>
-            </div>
+<iframe width="320" height="40" src="https://www.instagram.com/p/CfxDD8RPeCy/embed" frameborder="0"></iframe>            </div>
 
             <div class="whatsapp">
               <div class="Yuli">
