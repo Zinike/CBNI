@@ -114,7 +114,7 @@
 
           <h3>Nuestras Redes</h3>
 
-          <iframe width="320" height="440" src="https://www.instagram.com/cbnegociosinmobiliarios/embed" frameborder="0"></iframe>
+          <iframe width="320" height="440" src="https://www.instagram.com/cbnegociosinmobiliarios/embed" frameborder="1"></iframe>
 
           <div class="redes">
             <div class="instagram">
