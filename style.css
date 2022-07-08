@@ -573,7 +573,8 @@ body {
 
   #propiedades .contenedor .card .tarjeta:active {
     transform: scale(2);
-    background-image: url(".foto");
+    background-image: url(.foto);
+    z-index: 1000;
   }
 
   #contacto {
