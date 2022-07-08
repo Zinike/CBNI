@@ -116,8 +116,7 @@
 
           <div class="redes">
             <div class="instagram">
-<iframe width="320" height="40" src="https://www.instagram.com/p/CfxDD8RPeCy/embed" frameborder="0"></iframe>            </div>
-
+              <iframe width="320" height="50" src="https://www.instagram.com/p/CfxDD8RPeCy/embed" frameborder="0"></iframe>            </div>
             <div class="whatsapp">
               <div class="Yuli">
                 <a href="https://walink.co/7fee7b" target="_blank">
