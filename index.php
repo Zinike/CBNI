@@ -55,7 +55,7 @@
             </div>
             <div class="face back">
               <h4><?php echo $row['TIPO'];?></h4>
-              <h3>EN</h3>
+              <h4>EN</h4>
               <h4><?php echo $row['LOCALIDAD'];?></h4>
               <p><?php echo $row['DESCRIPCION'];?></p>
 
