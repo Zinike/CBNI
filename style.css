@@ -571,7 +571,7 @@ body {
     transform: perspective(400px) rotateY(360deg);
   }
 
-  #propiedades .contenedor .card .tarjeta:active .back {
+  #propiedades .contenedor .card .tarjeta:active {
     transform: scale(2);
   }
 
