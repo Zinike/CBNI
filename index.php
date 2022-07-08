@@ -114,7 +114,7 @@
 
           <h3>Nuestras Redes</h3>
 
-          <iframe src="https://www.instagram.com/p/CfwUTCTuC5h/embed" frameborder="0"></iframe>
+          <iframe width="320" height="40" src="https://www.instagram.com/p/CfxDD8RPeCy/embed" frameborder="0"></iframe>
 
           <div class="redes">
             <div class="instagram">
