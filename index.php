@@ -56,7 +56,7 @@
             <div class="face back">
               <h4><?php echo $row['TIPO'];?> EN <?php echo $row['LOCALIDAD'];?></h4>
               <p><?php echo $row['DESCRIPCION'];?></p>
-
+              <h4><?php echo $row['PRECIO'];?></h4>
             </div>
           </div>
           <?php }?>
@@ -77,6 +77,7 @@
             <div class="face back">
               <h4><?php echo $row['TIPO'];?> EN <?php echo $row['LOCALIDAD'];?></h4>
               <p><?php echo $row['DESCRIPCION'];?></p>
+              <h4><?php echo $row['PRECIO'];?></h4>
             </div>
           </div>
           <?php }?>
