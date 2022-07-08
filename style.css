@@ -569,8 +569,8 @@ body {
     transform: perspective(400px) rotateY(360deg);
   }
 
-  #propiedades .contenedor .card .tarjeta:active .front {
-    transform: scale(1.5);
+  #propiedades .contenedor .card .tarjeta:active .back {
+    transform-origin: center;
   }
 
   #contacto {
