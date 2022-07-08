@@ -115,7 +115,7 @@
           <h3>Nuestras Redes</h3>
 
           <div class="redes">
-            <iframe class="instagram" width="320" height="100" src="https://www.instagram.com/p/CfxDD8RPeCy/embed" frameborder="0"></iframe>            </div>
+            <iframe class="instagram" width="320" height="440" src="https://www.instagram.com/p/CfxDD8RPeCy/embed" frameborder="0"></iframe>            </div>
             <div class="whatsapp">
               <div class="Yuli">
                 <a href="https://walink.co/7fee7b" target="_blank">
