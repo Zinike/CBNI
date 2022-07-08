@@ -555,7 +555,6 @@ body {
     width: 100%;
     text-align: center;
     top: 0;
-    text-shadow: 5px 5px 5px #000;
     color: #000;
     margin-top: 10px;
   }
@@ -571,7 +570,6 @@ body {
     border-top: solid 1px #000;
     color: #000;
     top: 25%;
-    text-shadow: 5px 5px 5px #000;
   }
 
   #propiedades .contenedor .card .tarjeta .back h3 {
@@ -579,7 +577,6 @@ body {
     width: 100%;
     text-align: center;
     bottom: 0;
-    text-shadow: 5px 5px 5px #000;
     color: #000;
     margin-bottom: 10px;
   }
