@@ -37,12 +37,7 @@
 
     <section id="nosotros">
       <h2>Sobre Nosotros</h2>
-      <q cite="Marcos">Somos una pequeña inmobiliaria brindando lo mejor de nosotros para que te sientas parte de nuestra famil0ia.</q>
-      <div class="iframes">
-        <iframe src="https://www.instagram.com/p/CfxDnv9vHtu/embed" width="320" height="500"></iframe>
-        <iframe src="https://www.instagram.com/p/CfxDnv9vHtu/embed" width="320" height="500"></iframe>
-        <iframe src="https://www.instagram.com/p/CfxDnv9vHtu/embed" width="320" height="500"></iframe>
-      </div>
+      <q cite="Marcos">Somos una pequeña inmobiliaria brindando lo mejor de nosotros para que te sientas parte de nuestra familia.</q>
     </section>
 
     <section id="propiedades">
