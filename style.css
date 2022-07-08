@@ -573,6 +573,7 @@ body {
     justify-content: center;
     border-top: solid 1px #fff;
     top: 50%;
+    box-shadow: 1px #000;
   }
 
   #propiedades .contenedor .card .tarjeta .back h3 {
@@ -580,6 +581,7 @@ body {
     width: 100%;
     text-align: center;
     bottom: 0;
+    box-shadow: 1px #000;
   }
 
   #propiedades .contenedor .card .tarjeta:hover .front {
