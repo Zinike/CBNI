@@ -54,11 +54,9 @@
               <h4><?php echo $row['TIPO'];?></h4>
             </div>
             <div class="face back">
-              <div class="">
-                <h4><?php echo $row['TIPO'];?></h4>
-                <p>EN</p>
-                <h4><?php echo $row['LOCALIDAD'];?></h4>
-              </div>
+              <h4><?php echo $row['TIPO'];?></h4>
+              <h3>EN</h3>
+              <h4><?php echo $row['LOCALIDAD'];?></h4>
               <p><?php echo $row['DESCRIPCION'];?></p>
 
             </div>
