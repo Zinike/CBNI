@@ -570,7 +570,7 @@ body {
   }
 
   #propiedades .contenedor .card .tarjeta:active .back {
-    transform-origin: center;
+    transform: scale3d(1, 2, 3);
   }
 
   #contacto {
