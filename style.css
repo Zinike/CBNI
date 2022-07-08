@@ -558,8 +558,8 @@ body {
   #propiedades .contenedor .card .tarjeta .back h4 {
     position: absolute;
     width: 100%;
-    margin: 10px 0;
     text-align: center;
+    top: 0;
   }
 
   #propiedades .contenedor .card .tarjeta .back p {
@@ -571,6 +571,14 @@ body {
     align-content: center;
     justify-content: center;
     border-top: solid 1px #fff;
+    top: 50%;
+  }
+
+  #propiedades .contenedor .card .tarjeta .back h3 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
   }
 
   #propiedades .contenedor .card .tarjeta:hover .front {
