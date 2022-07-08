@@ -555,7 +555,6 @@ body {
     width: 100%;
     text-align: center;
     top: 0;
-    background-color: #666;
     color: #000;
     margin-top: 10px;
   }
@@ -570,7 +569,6 @@ body {
     justify-content: center;
     border-top: solid 1px #000;
     font-size: 1rem;
-    background-color: #666;
     color: #000;
     top: 35%;
   }
@@ -580,7 +578,6 @@ body {
     width: 100%;
     text-align: center;
     bottom: 0;
-    background-color: #666;
     color: #500000;
     margin-bottom: 10%;
   }
