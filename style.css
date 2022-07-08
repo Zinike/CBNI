@@ -560,6 +560,7 @@ body {
     width: 100%;
     text-align: center;
     top: 0;
+    box-shadow: 1px #000;
   }
 
   #propiedades .contenedor .card .tarjeta .back p {
