@@ -498,6 +498,8 @@ body {
     overflow: hidden;
     height: 300px;
     width: 200px;
+    max-height: 600px;
+    max-width: 400px;
     margin: 15px;
     border-radius: 8px;
     transition: all 500ms;
@@ -570,7 +572,7 @@ body {
   }
 
   #propiedades .contenedor .card .tarjeta:active .back {
-    transform: scale3d(1, 2, 3);
+    transform: scale3d(2, 2, 3);
   }
 
   #contacto {
