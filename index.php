@@ -68,6 +68,7 @@
           <?php mysqli_free_result($resultado);?>
         </form>
       </div>
+      <br><br>
 
       <h4>Venta</h4>
       <div class="contenedor">
