@@ -623,6 +623,11 @@ body {
     background-color: #777;
   }
 
+  .button:active {
+    transform: scale(1.05);
+    background-color: #666;
+  }
+
   footer {
     padding: 10px 0 10px 0;
     background-color: #000;
