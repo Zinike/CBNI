@@ -37,7 +37,12 @@
 
     <section id="nosotros">
       <h2>Sobre Nosotros</h2>
-      <q cite="Marcos">Somos una pequeña inmobiliaria brindando lo mejor de nosotros para que te sientas parte de nuestra familia.</q>
+      <q cite="Marcos">Somos una pequeña inmobiliaria brindando lo mejor de nosotros para que te sientas parte de nuestra famil0ia.</q>
+      <div class="iframes">
+        <iframe src="https://www.instagram.com/p/CfxDnv9vHtu/embed" width="320" height="500"></iframe>
+        <iframe src="https://www.instagram.com/p/CfxDnv9vHtu/embed" width="320" height="500"></iframe>
+        <iframe src="https://www.instagram.com/p/CfxDnv9vHtu/embed" width="320" height="500"></iframe>
+      </div>
     </section>
 
     <section id="propiedades">
@@ -115,7 +120,15 @@
           <h3>Nuestras Redes</h3>
 
           <div class="redes">
-            <iframe class="instagram" width="320" height="70" src="https://www.instagram.com/p/CfxDnv9vHtu/embed" frameborder="0"></iframe>            </div>
+            <div class="instagram">
+              <a href="https://www.instagram.com/cbnegociosinmobiliarios/" target="_blank">
+                <button class="button" type="button" name="button">
+                <img class="iconinstagram" src="images/instagram.png" alt="intagram" height="20px">
+                CBnegociosinmobiliarios
+                </button>
+              </a>
+            </div>
+
             <div class="whatsapp">
               <div class="Yuli">
                 <a href="https://walink.co/7fee7b" target="_blank">
@@ -147,6 +160,8 @@
         </ul>
       </div>
     </section>
+
+    <div class="loader"></div>
 
     <footer>
       <p>Todos los derechos reservados &#169</p>
