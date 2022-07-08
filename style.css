@@ -548,7 +548,7 @@ body {
   }
 
   #propiedades .contenedor .card .tarjeta .back img {
-    filter: blur(2px);
+    filter: blur(4px);
     position: relative;
     width: 100%;
     height: 100%;
