@@ -559,7 +559,7 @@ body {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 0;
+    top: 10;
     text-shadow: 5px 5px 5px #000;
   }
 
@@ -580,7 +580,7 @@ body {
     position: absolute;
     width: 100%;
     text-align: center;
-    bottom: 0;
+    bottom: 10;
     text-shadow: 5px 5px 5px #000;
   }
 
