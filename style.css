@@ -568,8 +568,9 @@ body {
     align-content: center;
     justify-content: center;
     border-top: solid 1px #000;
+    font-size: 1rem;
     color: #000;
-    top: 25%;
+    top: 35%;
   }
 
   #propiedades .contenedor .card .tarjeta .back h3 {
