@@ -556,12 +556,14 @@ body {
   }
 
   #propiedades .contenedor .card .tarjeta .back h4 {
+    position: absolute;
     width: 100%;
     margin: 10px 0;
     text-align: center;
   }
 
   #propiedades .contenedor .card .tarjeta .back p {
+    position: absolute;
     width: 100%;
     height: 100%;
     margin: 10px 0;
