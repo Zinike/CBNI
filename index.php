@@ -54,7 +54,7 @@
             while ($row=mysqli_fetch_assoc($resultado)) {?>
           <div class="tarjeta">
             <div class="face front">
-              <img src="<?php echo $row['FOTO'];?>" alt="imagen">
+              <img class="foto" src="<?php echo $row['FOTO'];?>" alt="imagen">
               <h4><?php echo $row['TIPO'];?></h4>
             </div>
             <div class="face back">
@@ -75,7 +75,7 @@
             while ($row=mysqli_fetch_assoc($resultado)) {?>
           <div class="tarjeta">
             <div class="face front">
-              <img src="<?php echo $row['FOTOS'];?>" alt="imagen">
+              <img class="foto" src="<?php echo $row['FOTOS'];?>" alt="imagen">
               <h4><?php echo $row['TIPO'];?></h4>
             </div>
             <div class="face back">
