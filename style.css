@@ -580,6 +580,7 @@ body {
     bottom: 0;
     /*COLOR DOLAR PARA HACER LINDO DINERO*/
     color: #85BB65;
+    text-shadow: 1px 1px #85BB65;
     margin-bottom: 10%;
   }
 
