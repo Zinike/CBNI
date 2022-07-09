@@ -33,7 +33,8 @@
 
 
     <div id="preloader" class="preloader">
-    <p>FAVOR DE ESPERAR</p>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <p>FAVOR DE ESPERAR</p>
     </div>
 
 
