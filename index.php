@@ -32,7 +32,7 @@
     </header>
 
 
-    <div class="preloader"></div>
+    <div id="preloader" class="preloader"></div>
 
 
     <section id="hero">
@@ -168,6 +168,13 @@
     </footer>
 
     <script src="script.js"></script>
+    <script type="text/javascript">
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function(){
+        loader.style.display = "none";
+      })
+
+    </script>
 
   </body>
 </html>
