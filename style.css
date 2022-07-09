@@ -9,6 +9,7 @@
   width: 100%;
   position: fixed;
   z-index: 1000000;
+  text-shadow: #7a7a7a 4px 3px 0px;
 }
 
 /*   GENERAL   */
@@ -37,7 +38,6 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 8em;
-    text-shadow: #7a7a7a 4px 3px 0px;
   }
 
   h2 {
@@ -45,7 +45,6 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 1.5em;
-    text-shadow: #7a7a7a 4px 3px 0px;
   }
 
   h3 {
@@ -278,9 +277,9 @@ body {
     align-content: center;
     justify-content: center;
     border-top: solid 1px #000;
-    font-size: 1rem;
+    font-size: .9rem;
     color: #000;
-    top: 35%;
+    top: 30%;
   }
 
   #propiedades .contenedor .card .tarjeta .back h3 {
@@ -372,7 +371,6 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 8em;
-    text-shadow: #7a7a7a 4px 3px 0px;
   }
 
   h2 {
@@ -380,7 +378,6 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 2em;
-    text-shadow: #7a7a7a 4px 3px 0px;
   }
 
   h3 {
