@@ -58,7 +58,7 @@
           <div class="tarjeta">
             <div class="face front">
               <img src="<?php echo $row['FOTO'];?>" alt="imagen">
-              <h4><?php echo $row['TIPO'];?></h4>
+              <h4><?php echo $row['TIPO'];?><br><?php echo $row['LOCALIDAD'];?></h4>
             </div>
             <div class="face back">
               <img src="<?php echo $row['FOTO'];?>" alt="imagen">
@@ -80,7 +80,7 @@
           <div class="tarjeta">
             <div class="face front">
               <img src="<?php echo $row['FOTOS'];?>" alt="imagen">
-              <h4><?php echo $row['TIPO'];?></h4>
+              <h4><?php echo $row['TIPO'];?><br><?php echo $row['LOCALIDAD'];?></h4>
             </div>
             <div class="face back">
               <img src="<?php echo $row['FOTOS'];?>" alt="imagen">
