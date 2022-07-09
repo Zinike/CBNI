@@ -32,7 +32,7 @@
     </header>
 
 
-    <div id="preloader" class="preloader"></div>
+    <div id="preloader" class="preloader">Favor de esperar...</div>
 
 
     <section id="hero">
