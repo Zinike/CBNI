@@ -36,7 +36,7 @@
 
 
     <section id="hero">
-      <video src="images/realstate.webm" muted autoplay loop></video>
+      <video src="images/realstate.webm" muted autoplay loop preload="none"></video>
     </section>
 
     <section id="nosotros">
