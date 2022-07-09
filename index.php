@@ -33,7 +33,7 @@
 
 
     <div id="preloader" class="preloader">
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       <p>FAVOR DE ESPERAR</p>
     </div>
 
