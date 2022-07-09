@@ -485,11 +485,13 @@ body {
     width: 100vw;
   }
 
-  #hero img {
-    height: 300px;
-    width: 300px;
-    position: relative;
-    z-index: 1000;
+  #hero video {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+    position: absolute;
+    top: 0;
   }
 
   #nosotros {
