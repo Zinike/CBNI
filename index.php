@@ -23,6 +23,7 @@
 
         <nav class="menu">
           <ul>
+            <a href=" #hero">Inicio</a>
             <a href=" #nosotros">Nosotros</a>
             <a href="#propiedades">Propiedades</a>
             <a href="#contacto">Contacto</a>
