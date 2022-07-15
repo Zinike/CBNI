@@ -91,7 +91,7 @@
           </div>
         </div>
         <?php }?>
-        <?php mysqli_free_result($resultado);?>
+        <?php mysqli_free_result($resultado); ?>
       </form>
     </div>
   </section>
