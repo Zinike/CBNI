@@ -23,62 +23,21 @@
 
       <nav class="menu">
         <ul>
-          <a href=" #hero">Inicio</a>
-          <a href=" #nosotros">Nosotros</a>
-          <a href="#propiedades">Propiedades</a>
-          <a href="#contacto">Contacto</a>
+          <a href="index.php">Volver</a>
         </ul>
       </nav>
     </div>
   </header>
 
 
-  <div id="preloader" class="preloader">
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <h2>FAVOR DE ESPERAR</h2>
-  </div>
-
-
-  <section id="hero">
-    <video src="images/realstate.webm" muted autoplay loop></video>
-  </section>
-
-  <section id="nosotros">
-    <h2>Sobre Nosotros</h2>
-    <q cite="Marcos">Somos una pequeña inmobiliaria brindando lo mejor de nosotros para que te sientas parte de nuestra familia.</q>
-  </section>
+  <div id="preloader" class="preloader"></div>
 
   <section id="propiedades">
     <h2>Nuestras Propiedades</h2>
-
-    <h4>Alquiler</h4>
-    <div class="contenedor">
-      <form class="card">
-        <?php $resultado = mysqli_query($conn, $alquilerlimited);
-            while ($row=mysqli_fetch_assoc($resultado)) {?>
-        <div class="tarjeta">
-          <div class="face front">
-            <img src="<?php echo $row['FOTO'];?>" alt="imagen-de-propiedad">
-            <h4><?php echo $row['TIPO'];?><br><?php echo $row['LOCALIDAD'];?></h4>
-          </div>
-          <div class="face back">
-            <img src="<?php echo $row['FOTO'];?>" alt="imagen-de-propiedad">
-            <h4><?php echo $row['TIPO'];?><br><?php echo $row['LOCALIDAD'];?></h4>
-            <p><?php echo $row['DESCRIPCION'];?></p>
-          </div>
-        </div>
-        <?php }?>
-        <?php mysqli_free_result($resultado);?>
-      </form>
-      <a href="alquiler.php">VER TODAS</a>
-    </div>
-    <br><br>
-
     <h4>Venta</h4>
     <div class="contenedor">
       <form class="card">
-        <?php $resultado = mysqli_query($conn, $ventalimited);
+        <?php $resultado = mysqli_query($conn, $alquilerall);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
         <div class="tarjeta">
           <div class="face front">
@@ -94,7 +53,6 @@
         <?php }?>
         <?php mysqli_free_result($resultado); ?>
       </form>
-      <a href="venta.php">VER TODAS</a>
     </div>
   </section>
 
