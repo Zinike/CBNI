@@ -8,6 +8,6 @@ if(!$conn){
 $ventalimited = "SELECT * FROM `venta` LIMIT 5";
 $alquilerlimited = "SELECT * FROM `alquiler` LIMIT 5";
 
-$venta = "SELECT * FROM `venta` ORDER BY `venta`.`LOCALIDAD` ASC";
-$alquiler = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`LOCALIDAD` ASC";
+$ventaall = "SELECT * FROM `venta` ORDER BY `venta`.`LOCALIDAD` ASC";
+$alquilerall = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`LOCALIDAD` ASC";
 ?>
