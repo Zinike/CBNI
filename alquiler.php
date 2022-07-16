@@ -34,7 +34,7 @@
 
   <section id="propiedades">
     <h2>Nuestras Propiedades</h2>
-    <h4>Venta</h4>
+    <h4>Alquiler</h4>
     <div class="contenedor">
       <form class="card">
         <?php $resultado = mysqli_query($conn, $alquilerall);
