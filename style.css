@@ -508,11 +508,8 @@ body {
   }
 
   #propiedades .contenedor {
-    width: auto;
-    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
     background-color: #999;
     border-radius: 8px;
