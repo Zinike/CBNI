@@ -424,7 +424,7 @@ body {
   a {
     display: flex;
     justify-content: center;
-    color: #ffc85e;
+    color: black;
     font-size: 1em;
     list-style: none;
     text-decoration: none;
