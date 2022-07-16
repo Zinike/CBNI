@@ -74,7 +74,6 @@
       </form>
       <a href="alquiler.php">VER TODAS</a>
     </div>
-    <br><br>
 
 
     <div class="contenedor">
