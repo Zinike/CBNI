@@ -516,6 +516,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     background-color: #999;
+    border-radius: 8px;
   }
 
   #propiedades .contenedor .card {
