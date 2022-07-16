@@ -55,7 +55,7 @@
     <h4>Alquiler</h4>
     <div class="contenedor">
       <form class="card">
-        <?php $resultado = mysqli_query($conn, $alquiler);
+        <?php $resultado = mysqli_query($conn, $alquilerlimited);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
         <div class="tarjeta">
           <div class="face front">
@@ -77,7 +77,7 @@
     <h4>Venta</h4>
     <div class="contenedor">
       <form class="card">
-        <?php $resultado = mysqli_query($conn, $venta);
+        <?php $resultado = mysqli_query($conn, $ventalimited);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
         <div class="tarjeta">
           <div class="face front">
