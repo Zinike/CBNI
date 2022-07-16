@@ -180,7 +180,7 @@ body {
   }
 
   #propiedades .contenedor {
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
