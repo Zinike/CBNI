@@ -508,6 +508,7 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
+    flex-direction: column;
     height: auto;
     width: 100vw;
     margin-left: 10px;
