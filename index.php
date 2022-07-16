@@ -52,8 +52,9 @@
   <section id="propiedades">
     <h2>Nuestras Propiedades</h2>
 
-    <h4>Alquiler</h4>
+
     <div class="contenedor">
+      <h4>Alquiler</h4>
       <form class="card">
         <?php $resultado = mysqli_query($conn, $alquilerlimited);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
@@ -75,8 +76,9 @@
     </div>
     <br><br>
 
-    <h4>Venta</h4>
+
     <div class="contenedor">
+      <h4>Venta</h4>
       <form class="card">
         <?php $resultado = mysqli_query($conn, $ventalimited);
             while ($row=mysqli_fetch_assoc($resultado)) {?>
