@@ -424,7 +424,7 @@ body {
   a {
     display: flex;
     justify-content: center;
-    color: black;
+    color: #ffc85e;
     font-size: 1em;
     list-style: none;
     text-decoration: none;
@@ -526,7 +526,7 @@ body {
     justify-content: center;
   }
 
-  #propiedades .contenedor h4 {
+  #propiedades .contenedor h4, a {
     color: #222;
     font-size: 1.5rem;
   }
