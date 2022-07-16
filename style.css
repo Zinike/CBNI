@@ -193,7 +193,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    background: #111;
     justify-content: center;
     align-items: center;
   }
@@ -523,7 +522,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    background: #111;
     justify-content: center;
     align-items: center;
   }
