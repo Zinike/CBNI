@@ -583,7 +583,8 @@ body {
     justify-content: center;
     text-align: center;
     align-content: center;
-    background: rgba(0, 0, 0);
+    color: black;
+    background: rgba(0, 0, 0, .5);
   }
 
   #propiedades .contenedor .card .tarjeta .back {
