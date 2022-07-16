@@ -186,7 +186,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #7a7a7a;
+    background-color: #111111;
   }
 
   #propiedades .contenedor .card {
