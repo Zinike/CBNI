@@ -51,8 +51,6 @@
 
   <section id="propiedades">
     <h2>Nuestras Propiedades</h2>
-
-
     <div class="contenedor">
       <h4>Alquiler</h4>
       <form class="card">

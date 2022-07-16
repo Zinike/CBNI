@@ -526,6 +526,11 @@ body {
     justify-content: center;
   }
 
+  #propiedades .contenedor h4 {
+    color: #222;
+    font-size: 1.5rem;
+  }
+
   #propiedades .contenedor .card {
     display: flex;
     flex-wrap: wrap;
