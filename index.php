@@ -59,11 +59,11 @@
             while ($row=mysqli_fetch_assoc($resultado)) {?>
         <div class="tarjeta">
           <div class="face front">
-            <img src="<?php echo $row['FOTO'];?>" alt="imagen">
+            <img src="<?php echo $row['FOTO'];?>" alt="imagen-de-propiedad">
             <h4><?php echo $row['TIPO'];?><br><?php echo $row['LOCALIDAD'];?></h4>
           </div>
           <div class="face back">
-            <img src="<?php echo $row['FOTO'];?>" alt="imagen">
+            <img src="<?php echo $row['FOTO'];?>" alt="imagen-de-propiedad">
             <h4><?php echo $row['TIPO'];?><br><?php echo $row['LOCALIDAD'];?></h4>
             <p><?php echo $row['DESCRIPCION'];?></p>
           </div>
@@ -81,11 +81,11 @@
             while ($row=mysqli_fetch_assoc($resultado)) {?>
         <div class="tarjeta">
           <div class="face front">
-            <img src="<?php echo $row['FOTOS'];?>" alt="imagen">
+            <img src="<?php echo $row['FOTOS'];?>" alt="imagen-de-propiedad">
             <h4><?php echo $row['TIPO'];?><br><?php echo $row['LOCALIDAD'];?></h4>
           </div>
           <div class="face back">
-            <img src="<?php echo $row['FOTOS'];?>" alt="imagen">
+            <img src="<?php echo $row['FOTOS'];?>" alt="imagen-de-propiedad">
             <h4><?php echo $row['TIPO'];?><br><?php echo $row['LOCALIDAD'];?></h4>
             <p><?php echo $row['DESCRIPCION'];?></p>
           </div>
