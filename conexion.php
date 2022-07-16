@@ -4,7 +4,6 @@ if(!$conn){
   echo "Connection error: " . mysqli_connect_error();
 }
 
-
 $ventalimited = "SELECT * FROM `venta` LIMIT 5";
 $alquilerlimited = "SELECT * FROM `alquiler` LIMIT 5";
 
