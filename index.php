@@ -187,7 +187,7 @@
   </script>
   <script>
     document.getElementById("demo").innerHTML =
-    obj.oficial[1].value_sell + " " + obj.oficial[1].value_buy;
+    obj.cotizaciones[1].value_sell + " " + obj.cotizaciones[1].value_buy;
   </script>
 
 </body>
