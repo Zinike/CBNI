@@ -185,9 +185,13 @@
       loader.style.display = "none";
     })
   </script>
-  <script>
-    document.getElementById("demo").innerHTML =
-    obj.cotizaciones[1].value_sell + " " + obj.cotizaciones[1].value_buy;
+  <script type="text/javascript" src="data.json"></script>
+  <script type="text/javascript">
+    var mydata = JSON.parse(data);
+    alert(mydata[0].value_buy);
+    alert(mydata[0].value_sell);
+    alert(mydata[1].value_buy);
+    alert(mydata[1].value_sell);
   </script>
 
 </body>
