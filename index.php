@@ -169,7 +169,9 @@
 
   <section id="cotizacion">
     <div class="contenedor">
-      https://api.bluelytics.com.ar/v2/latest
+      <script type="text/javascript">
+        {"oficial":{"value_avg":134.38,"value_sell":137.38,"value_buy":131.38},"blue":
+      </script>
     </div>
   </section>
 
