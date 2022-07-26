@@ -1,6 +1,6 @@
 const requestURL = "https://api.bluelytics.com.ar/v2/latest"
 
-{
+const valorFijo = {
   "oficial": {
     "value_avg": 134.38,
     "value_sell": 137.38,
