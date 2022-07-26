@@ -188,10 +188,10 @@
   <script type="text/javascript" src="data.json"></script>
   <script type="text/javascript">
     var mydata = JSON.parse(data);
-    alert(mydata[0].value_buy);
-    alert(mydata[0].value_sell);
-    alert(mydata[1].value_buy);
-    alert(mydata[1].value_sell);
+    print(mydata[0].value_buy);
+    print(mydata[0].value_sell);
+    print(mydata[1].value_buy);
+    print(mydata[1].value_sell);
   </script>
 
 </body>
