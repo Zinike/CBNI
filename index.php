@@ -169,6 +169,7 @@
 
   <section id="cotizacion">
     <div class="contenedor">
+      <h2>Cotizaciones</h2>
       <p id="demo"></p>
     </div>
   </section>
