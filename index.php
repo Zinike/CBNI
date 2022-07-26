@@ -167,6 +167,12 @@
     </div>
   </section>
 
+  <section id="cotizacion">
+    <div class="contenedor">
+      {"oficial":{"value_avg":134.38,"value_sell":137.38,"value_buy":131.38},"blue":
+    </div>
+  </section>
+
   <footer>
     <p>Todos los derechos reservados &#169</p>
   </footer>
