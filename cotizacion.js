@@ -1,5 +1,6 @@
 async function postData(url = 'https://www.dolarsi.com/api/api.php?type=dolar', data = {}) {
-  // Opciones por defecto estan marcadas con un *
+
+console.log("hola");
   const response = await fetch(url, {
     method: 'GET', // *GET, POST, PUT, DELETE, etc.
     mode: 'cors', // no-cors, *cors, same-origin
