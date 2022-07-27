@@ -165,12 +165,6 @@
     </div>
   </section>
 
-  <section id="cotizacion">
-    <div class="contenedor">
-    </div>
-  </section>
-
-
   <footer>
     <p>Todos los derechos reservados &#169</p>
   </footer>
