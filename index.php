@@ -187,7 +187,7 @@
   </script>
   <script type="text/javascript" src="data.json"></script>
   <script type="text/javascript">
-    var mydata = JSON.parse(data);
+    var mydata = JSON.parse(valorFijo);
     print(mydata[0].value_buy);
     print(mydata[0].value_sell);
     print(mydata[1].value_buy);
