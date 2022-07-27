@@ -170,8 +170,7 @@
   <section id="cotizacion">
     <div class="contenedor">
       <h2>Cotizaciones</h2>
-      <iframe width="300px" height="690px" src="https://www.dolarsi.com/func/moduloArriba-n.html" frameborder="0" scrolling="0" allowfullscreen=""></iframe>
-      <p>Gracias</p>
+      
     </div>
   </section>
 
