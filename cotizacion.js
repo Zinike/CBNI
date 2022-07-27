@@ -5,4 +5,5 @@ async function traerDatos(){
 
 }
 
-load(traerDatos);
+var div = document.getElementById("respuesta");
+div.innerHTML = datos;
