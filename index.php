@@ -170,7 +170,7 @@
   <section id="cotizacion">
     <div class="contenedor">
       <h2>Cotizaciones</h2>
-      <p id="demo"></p>
+      <iframe width="300px" height="690px" src="https://www.dolarsi.com/func/moduloArriba-n.html" frameborder="0" scrolling="0" allowfullscreen=""></iframe>
       <p>Gracias</p>
     </div>
   </section>
@@ -179,23 +179,14 @@
     <p>Todos los derechos reservados &#169</p>
   </footer>
 
-  <script src="script.js"></script>
+
+  <script src="mostrarMenu.js"></script>
+
   <script type="text/javascript">
     var loader = document.getElementById("preloader");
     window.addEventListener("load", function() {
       loader.style.display = "none";
     })
-  </script>
-  <script type="text/javascript" src="data.json"></script>
-  <script type="text/javascript">
-
-  document.getElementById("demo").innerHTML =
-  
-    var mydata = JSON.parse(valorFijo);
-    print(mydata[0].value_buy);
-    print(mydata[0].value_sell);
-    print(mydata[1].value_buy);
-    print(mydata[1].value_sell);
   </script>
 
 </body>
