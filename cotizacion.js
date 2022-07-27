@@ -5,4 +5,4 @@ var llamada = funcion(datos){
   console.log(datos);
 }
 
-document.getElementById("respuesta").innerHTML = "okey"
+document.getElementById("respuesta").innerHTML = "okey";
