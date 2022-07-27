@@ -15,7 +15,7 @@
 .preloader h2 {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-content: flex-end;
 }
 
 html::-webkit-scrollbar {
