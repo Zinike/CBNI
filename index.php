@@ -171,6 +171,7 @@
     <div class="contenedor">
       <h2>Cotizaciones</h2>
       <p id="demo"></p>
+      <p>Gracias</p>
     </div>
   </section>
 
@@ -187,6 +188,9 @@
   </script>
   <script type="text/javascript" src="data.json"></script>
   <script type="text/javascript">
+
+  document.getElementById("demo").innerHTML =
+  
     var mydata = JSON.parse(valorFijo);
     print(mydata[0].value_buy);
     print(mydata[0].value_sell);
