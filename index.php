@@ -170,7 +170,7 @@
   <section id="cotizacion">
     <div class="contenedor">
       <h2>Cotizaciones</h2>
-      <p id="res"></p>
+      <p id="respuesta"></p>
     </div>
   </section>
 
