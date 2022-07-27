@@ -6,4 +6,4 @@ async function obtencionDatos() {
 }
 
 
-document.getElementById("respuesta").innerHTML = obtencionDatos;
+//document.getElementById("respuesta").innerHTML = obtencionDatos;
