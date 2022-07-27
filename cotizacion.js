@@ -1,5 +1,5 @@
-async function datos() {
-  await fetch("https://api-dolar-argentina.herokuapp.com/api/dolarblue");
+async function obtencionDatos() {
+  const datos = await fetch("https://api-dolar-argentina.herokuapp.com/api/dolarblue");
 }
-console.log(datos.dolar);
+console.log(datos);
 document.getElementById("respuesta").innerHTML = datos;
