@@ -1,4 +1,5 @@
 async function traerDatos(){
-    var datos = await fetch("https://www.dolarsi.com/api/api.php?type=dolar");
+    const datos = await fetch("https://www.dolarsi.com/api/api.php?type=dolar");
     console.log(datos);
+    const datoPrimero = await dato.json();
 }
