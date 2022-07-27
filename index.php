@@ -169,6 +169,7 @@
 
   <section id="contacto">
     <div class="contenedor">
+      <h2>Cotizacion</h2>
       <iframe width="300px" height="395px" src="https://dolar-plus.com/api/widget" frameborder="0" scrolling="0" allowfullscreen=""></iframe>
     </div>
   </section>
