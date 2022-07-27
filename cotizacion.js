@@ -2,6 +2,7 @@ const request = async (url='https://api-dolar-argentina.herokuapp.com/api/dolarb
   const response = await fetch(url);
   if (!response.ok){
     throw new Error("WARN", response.status);}
+    else{
   const data = await response.text();
-  return data;
+  return data;}
 }
