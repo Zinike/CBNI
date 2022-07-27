@@ -185,7 +185,7 @@
       loader.style.display = "none";
     })
   </script>
-  <script type="text/javascript" src="data.js"></script>
+  <script type="text/javascript" src="data.json"></script>
   <script type="text/javascript">
     var mydata = JSON.parse(data);
     print(mydata[0].value_buy);
