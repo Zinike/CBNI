@@ -7,5 +7,5 @@ function cotizacionHoy () {
 
 
 
-  Logger.log(casa);
+  console.log(casa);
 }
