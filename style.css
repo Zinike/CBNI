@@ -19,13 +19,13 @@
   align-content: flex-end;
 }
 
+/*   GENERAL   */
 html::-webkit-scrollbar {
   width: 8px;
   height: 8px;
   display: none;
 }
 
-/*   GENERAL   */
 *, *::before, *::after {
   box-sizing: border-box;
   padding: 0;
