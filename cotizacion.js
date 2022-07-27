@@ -1,5 +1,9 @@
-console.log("Hola mundo");
+var cotizaciones = {};
+var casa = function(datos){
+  console.log(datos);
+}
 
 
 
-document.getElementById("respuesta").innerHTML = "okey";
+
+document.getElementById("respuesta").innerHTML = "Dolar Blue";
