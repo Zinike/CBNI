@@ -167,12 +167,6 @@
     </div>
   </section>
 
-  <section id="cotizacion">
-    <div class="contenedor">
-      <div id="respuesta"></div>
-    </div>
-  </section>
-
   <footer>
     <p>Todos los derechos reservados &#169</p>
   </footer>
@@ -186,7 +180,6 @@
       loader.style.display = "none";
     })
   </script>
-  <script type="text/javascript" src="cotizacion.js"></script>
 
 </body>
 
