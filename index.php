@@ -170,7 +170,7 @@
   <section id="cotizacion">
     <div class="contenedor">
       <h2>Cotizaciones</h2>
-      
+
     </div>
   </section>
 
@@ -187,6 +187,7 @@
       loader.style.display = "none";
     })
   </script>
+  <script type="text/javascript" src="cotizacion.js"></script>
 
 </body>
 
