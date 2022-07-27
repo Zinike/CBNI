@@ -169,7 +169,7 @@
 
   <section id="cotizacion">
     <div class="contenedor">
-      <p id="respuesta"></p>
+      <span id="respuesta"></span>
     </div>
   </section>
 
