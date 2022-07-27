@@ -7,13 +7,13 @@ var cotizaciones = {};
 var llamada = datos =>{
   console.log(datos);
   cotizaciones.dolar=datos;
-  var html = "";
-  html+="<h3>Dolar</h3>";
+  var impresion = "";
+  impresion+="<h3>Dolar</h3>";
   cotizaciones.dolar.map(dolar=>{
-    hmtl+="Hola Dolar";
+    impresion+="Hola Dolar";
   })
 
 
-  document.getElementById("respuesta").innerHTML = hmtl;
+  document.getElementById("respuesta").innerHTML = impresion;
 
 }
