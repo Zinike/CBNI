@@ -167,7 +167,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="contacto">
     <div class="contenedor">
       <iframe width="300px" height="395px" src="https://dolar-plus.com/api/widget" frameborder="0" scrolling="0" allowfullscreen=""></iframe>
     </div>
@@ -176,7 +176,7 @@
 
   <footer>
     <p>Todos los derechos reservados &#169</p>
-
+  </footer>
 
 
   <script src="mostrarMenu.js"></script>
