@@ -690,6 +690,19 @@ body {
     padding: 10px 0;
   }
 
+  #cotizacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+  }
+
+  #cotizacion .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .button {
     margin: 5px;
     padding: 5px;
