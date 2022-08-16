@@ -4,9 +4,9 @@ if(!$conn){
   echo "Connection error: " . mysqli_connect_error();
 }
 
-$ventalimited = "SELECT * FROM `venta` ORDER BY 'FOTOS' ASC LIMIT 5";
-$alquilerlimited = "SELECT * FROM `alquiler` ORDER BY 'FOTO' ASC LIMIT 5";
+$ventalimited = "SELECT * FROM `venta` ORDER BY `venta`.`ID` DESC LIMIT 5";
+$alquilerlimited = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`ID` DESC LIMIT 5";
 
-$ventaall = "SELECT * FROM `venta`";
-$alquilerall = "SELECT * FROM `alquiler`";
+$ventaall = "SELECT * FROM `venta` ORDER BY `venta`.`ID` DESC";
+$alquilerall = "SELECT * FROM `alquiler` ORDER BY `alquiler`.`ID` DESC";
 ?>
